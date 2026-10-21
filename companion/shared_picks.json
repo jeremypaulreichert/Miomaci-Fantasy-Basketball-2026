@@ -1,0 +1,2212 @@
+[
+  {
+    "pick_number": 1,
+    "round": 1,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:3112335",
+    "player_name": "Nikola Jokic",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 18133,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 2,
+    "round": 1,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:3945274",
+    "player_name": "Luka Doncic",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 74315,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 3,
+    "round": 1,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4278073",
+    "player_name": "Shai Gilgeous-Alexander",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 48246,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 4,
+    "round": 1,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:5104157",
+    "player_name": "Victor Wembanyama",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 171181,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 5,
+    "round": 1,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4431678",
+    "player_name": "Tyrese Maxey",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 568927,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 6,
+    "round": 1,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4432166",
+    "player_name": "Cade Cunningham",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 16981,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 7,
+    "round": 1,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:3032977",
+    "player_name": "Giannis Antetokounmpo",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 16331,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 8,
+    "round": 1,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3936299",
+    "player_name": "Jamal Murray",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 96580,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 9,
+    "round": 1,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4701230",
+    "player_name": "Jalen Johnson",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 143979,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 10,
+    "round": 1,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4433134",
+    "player_name": "Scottie Barnes",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 131346,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 11,
+    "round": 2,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:3908809",
+    "player_name": "Donovan Mitchell",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 90363,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 12,
+    "round": 2,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:6450",
+    "player_name": "Kawhi Leonard",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 243443,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 13,
+    "round": 2,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3202",
+    "player_name": "Kevin Durant",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 93847,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 14,
+    "round": 2,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4594268",
+    "player_name": "Anthony Edwards",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 62705,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 15,
+    "round": 2,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:5104155",
+    "player_name": "Bilal Coulibaly",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 9558,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 16,
+    "round": 2,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4684740",
+    "player_name": "Amen Thompson",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 516884,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 17,
+    "round": 2,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4871144",
+    "player_name": "Alperen Sengun",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 576386,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 18,
+    "round": 2,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:3917376",
+    "player_name": "Jaylen Brown",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 100487,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 19,
+    "round": 2,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:5041939",
+    "player_name": "Cooper Flagg",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 166906,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 20,
+    "round": 2,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:3934672",
+    "player_name": "Jalen Brunson",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 44666,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 21,
+    "round": 3,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:3992",
+    "player_name": "James Harden",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 44731,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 22,
+    "round": 3,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:3136195",
+    "player_name": "Karl-Anthony Towns",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 180384,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 23,
+    "round": 3,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:3059318",
+    "player_name": "Joel Embiid",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 52656,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 24,
+    "round": 3,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:1966",
+    "player_name": "LeBron James",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 208337,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 25,
+    "round": 3,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:3064514",
+    "player_name": "Julius Randle",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 420947,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 26,
+    "round": 3,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4432158",
+    "player_name": "Evan Mobley",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 21781,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 27,
+    "round": 3,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4683021",
+    "player_name": "Deni Avdija",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 151356,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 28,
+    "round": 3,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4066261",
+    "player_name": "Bam Adebayo",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 87961,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 29,
+    "round": 3,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4397688",
+    "player_name": "Trey Murphy III",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 218938,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 30,
+    "round": 3,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4065648",
+    "player_name": "Jayson Tatum",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 70143,
+    "model_calls": 3,
+    "searches": 1,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 31,
+    "round": 4,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4433621",
+    "player_name": "Jalen Duren",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 137827,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 32,
+    "round": 4,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4066457",
+    "player_name": "Austin Reaves",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 214643,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 33,
+    "round": 4,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3078576",
+    "player_name": "Derrick White",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 224652,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 34,
+    "round": 4,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:3975",
+    "player_name": "Stephen Curry",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 99572,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 35,
+    "round": 4,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4432816",
+    "player_name": "LaMelo Ball",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 72986,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 36,
+    "round": 4,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:3136193",
+    "player_name": "Devin Booker",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 210357,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 37,
+    "round": 4,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4869342",
+    "player_name": "Dyson Daniels",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 328209,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 38,
+    "round": 4,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4432573",
+    "player_name": "Paolo Banchero",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 96063,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 39,
+    "round": 4,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4433255",
+    "player_name": "Chet Holmgren",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 161324,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 40,
+    "round": 4,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:3149673",
+    "player_name": "Pascal Siakam",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 100199,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 41,
+    "round": 5,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4066336",
+    "player_name": "Lauri Markkanen",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 186068,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 42,
+    "round": 5,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4066259",
+    "player_name": "De'Aaron Fox",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 163156,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 43,
+    "round": 5,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:6583",
+    "player_name": "Anthony Davis",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 71056,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 44,
+    "round": 5,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4433136",
+    "player_name": "Walker Kessler",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 1056559,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 45,
+    "round": 5,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4066320",
+    "player_name": "Desmond Bane",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 242764,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 46,
+    "round": 5,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4397140",
+    "player_name": "Kevin Porter Jr.",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 38101,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 47,
+    "round": 5,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4591725",
+    "player_name": "Ryan Rollins",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 119137,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 48,
+    "round": 5,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4278104",
+    "player_name": "Michael Porter Jr.",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 49432,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 49,
+    "round": 5,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4278039",
+    "player_name": "Nickeil Alexander-Walker",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 355207,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 50,
+    "round": 5,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4396993",
+    "player_name": "Tyrese Haliburton",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 109396,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 51,
+    "round": 6,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4871145",
+    "player_name": "Josh Giddey",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 81000,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 52,
+    "round": 6,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4066328",
+    "player_name": "Jarrett Allen",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 188944,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 53,
+    "round": 6,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3913176",
+    "player_name": "Brandon Ingram",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 55470,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 54,
+    "round": 6,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4433627",
+    "player_name": "Keyonte George",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 93430,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 55,
+    "round": 6,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:6430",
+    "player_name": "Jimmy Butler III",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 29566,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 56,
+    "round": 6,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:5105565",
+    "player_name": "Donovan Clingan",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 249797,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 57,
+    "round": 6,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4845367",
+    "player_name": "Stephon Castle",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 482093,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 58,
+    "round": 6,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4395628",
+    "player_name": "Zion Williamson",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 146415,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 59,
+    "round": 6,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4431680",
+    "player_name": "Onyeka Okongwu",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 123513,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 60,
+    "round": 6,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:5160992",
+    "player_name": "Alex Sarr",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 95024,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 61,
+    "round": 7,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4395724",
+    "player_name": "Immanuel Quickley",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 359166,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 62,
+    "round": 7,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4433287",
+    "player_name": "Brandon Miller",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 209096,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 63,
+    "round": 7,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4277961",
+    "player_name": "Jaren Jackson Jr.",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 215169,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 64,
+    "round": 7,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:3032976",
+    "player_name": "Rudy Gobert",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 912016,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 65,
+    "round": 7,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:5061575",
+    "player_name": "Kon Knueppel",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 535298,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 66,
+    "round": 7,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:5124612",
+    "player_name": "VJ Edgecombe",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 55361,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 67,
+    "round": 7,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4396907",
+    "player_name": "Darius Garland",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 107299,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 68,
+    "round": 7,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4066354",
+    "player_name": "Payton Pritchard",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 94410,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 69,
+    "round": 7,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:3934719",
+    "player_name": "OG Anunoby",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 315083,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 70,
+    "round": 7,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:3155942",
+    "player_name": "Domantas Sabonis",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 104154,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 71,
+    "round": 8,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4277905",
+    "player_name": "Trae Young",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 123317,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 72,
+    "round": 8,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:2595516",
+    "player_name": "Norman Powell",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 239126,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 73,
+    "round": 8,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3978",
+    "player_name": "DeMar DeRozan",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 77518,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 74,
+    "round": 8,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4566434",
+    "player_name": "Franz Wagner",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 187128,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 75,
+    "round": 8,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4593803",
+    "player_name": "Jalen Williams",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 147834,
+    "model_calls": 3,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 76,
+    "round": 8,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4066383",
+    "player_name": "Miles Bridges",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 210240,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 77,
+    "round": 8,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:3907497",
+    "player_name": "Dejounte Murray",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 2331426,
+    "model_calls": 3,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": false
+  },
+  {
+    "pick_number": 78,
+    "round": 8,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:2490149",
+    "player_name": "CJ McCollum",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 192814,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 79,
+    "round": 8,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4432165",
+    "player_name": "Jalen Suggs",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 269169,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 80,
+    "round": 8,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:6442",
+    "player_name": "Kyrie Irving",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 434903,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 81,
+    "round": 9,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4432639",
+    "player_name": "Jabari Smith Jr.",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 353699,
+    "model_calls": 3,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 82,
+    "round": 9,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:3147657",
+    "player_name": "Mikal Bridges",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 340684,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 83,
+    "round": 9,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4395725",
+    "player_name": "Tyler Herro",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 104102,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 84,
+    "round": 9,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4251",
+    "player_name": "Paul George",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 1377842,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": false
+  },
+  {
+    "pick_number": 85,
+    "round": 9,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4278585",
+    "player_name": "Collin Gillespie",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 752132,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 86,
+    "round": 9,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4395625",
+    "player_name": "RJ Barrett",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 76285,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 87,
+    "round": 9,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4711272",
+    "player_name": "Reed Sheppard",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 290126,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 88,
+    "round": 9,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4431671",
+    "player_name": "Jaden McDaniels",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 336989,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 89,
+    "round": 9,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4397136",
+    "player_name": "Saddiq Bey",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 237756,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 90,
+    "round": 9,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4017837",
+    "player_name": "Ivica Zubac",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 192100,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 91,
+    "round": 10,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4711294",
+    "player_name": "Matas Buzelis",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 150015,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 92,
+    "round": 10,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:3062679",
+    "player_name": "Josh Hart",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 304736,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 93,
+    "round": 10,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4397424",
+    "player_name": "Neemias Queta",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 188071,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 94,
+    "round": 10,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4278067",
+    "player_name": "Nic Claxton",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 200869,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 95,
+    "round": 10,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4279888",
+    "player_name": "Ja Morant",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 66290,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 96,
+    "round": 10,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:3059319",
+    "player_name": "Andrew Wiggins",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 138699,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 97,
+    "round": 10,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4395712",
+    "player_name": "Andrew Nembhard",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 349958,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 98,
+    "round": 10,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:3102530",
+    "player_name": "Jusuf Nurkic",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 331284,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 99,
+    "round": 10,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:4684742",
+    "player_name": "Ausar Thompson",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 368892,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 100,
+    "round": 10,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4869780",
+    "player_name": "Derik Queen",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 143543,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 101,
+    "round": 11,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4600663",
+    "player_name": "Zach Edey",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 340955,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 102,
+    "round": 11,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:5105623",
+    "player_name": "Kel'el Ware",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 260251,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 103,
+    "round": 11,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:3995",
+    "player_name": "Jrue Holiday",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 204712,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 104,
+    "round": 11,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4709138",
+    "player_name": "Brandin Podziemski",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 885068,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 105,
+    "round": 11,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4432848",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 334693,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 106,
+    "round": 11,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:5174563",
+    "player_name": "Kyshawn George",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 75131,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 107,
+    "round": 11,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4278129",
+    "player_name": "Deandre Ayton",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 215101,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 108,
+    "round": 11,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3064440",
+    "player_name": "Zach LaVine",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 72116,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 109,
+    "round": 11,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4396971",
+    "player_name": "Naz Reid",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 329837,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 110,
+    "round": 11,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4065733",
+    "player_name": "Ty Jerome",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 130629,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 111,
+    "round": 12,
+    "pick_in_round": 1,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:4395651",
+    "player_name": "Coby White",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 171991,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 112,
+    "round": 12,
+    "pick_in_round": 2,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4222252",
+    "player_name": "Isaiah Hartenstein",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 300743,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 113,
+    "round": 12,
+    "pick_in_round": 3,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:4278078",
+    "player_name": "P.J. Washington",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 182126,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 114,
+    "round": 12,
+    "pick_in_round": 4,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4593125",
+    "player_name": "Santi Aldama",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 355902,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 115,
+    "round": 12,
+    "pick_in_round": 5,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:3102531",
+    "player_name": "Kristaps Porzingis",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 139516,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 116,
+    "round": 12,
+    "pick_in_round": 6,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:3135045",
+    "player_name": "Grayson Allen",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 609224,
+    "model_calls": 2,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 117,
+    "round": 12,
+    "pick_in_round": 7,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:4594327",
+    "player_name": "Keegan Murray",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 452604,
+    "model_calls": 3,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 118,
+    "round": 12,
+    "pick_in_round": 8,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:4914336",
+    "player_name": "Shaedon Sharpe",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 149434,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 119,
+    "round": 12,
+    "pick_in_round": 9,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:5041935",
+    "player_name": "Cameron Boozer",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 110920,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 120,
+    "round": 12,
+    "pick_in_round": 10,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4431736",
+    "player_name": "Toumani Camara",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 132298,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 121,
+    "round": 13,
+    "pick_in_round": 1,
+    "manager": "anthropic",
+    "model": "claude-fable-5-1",
+    "player_id": "espn:4712849",
+    "player_name": "Anthony Black",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 144073,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 122,
+    "round": 13,
+    "pick_in_round": 2,
+    "manager": "gemini",
+    "model": "gemini-4-argon",
+    "player_id": "espn:5142718",
+    "player_name": "AJ Dybantsa",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 175997,
+    "model_calls": 4,
+    "searches": 2,
+    "reads": 1,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 123,
+    "round": 13,
+    "pick_in_round": 3,
+    "manager": "deepseek",
+    "model": "deepseek-v4-pro",
+    "player_id": "espn:3064290",
+    "player_name": "Aaron Gordon",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 212599,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 124,
+    "round": 13,
+    "pick_in_round": 4,
+    "manager": "mistral",
+    "model": "mistral-large-4-0",
+    "player_id": "espn:5144091",
+    "player_name": "Jeremiah Fears",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 612670,
+    "model_calls": 3,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 125,
+    "round": 13,
+    "pick_in_round": 5,
+    "manager": "xai",
+    "model": "grok-4.7",
+    "player_id": "espn:4277847",
+    "player_name": "Wendell Carter Jr.",
+    "player_positions": [
+      "C"
+    ],
+    "decision_wall_ms": 505664,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 126,
+    "round": 13,
+    "pick_in_round": 6,
+    "manager": "meta_direct",
+    "model": "muse-wonder-1.0",
+    "player_id": "espn:4576087",
+    "player_name": "Peyton Watson",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 189798,
+    "model_calls": 3,
+    "searches": 2,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 127,
+    "round": 13,
+    "pick_in_round": 7,
+    "manager": "zai",
+    "model": "glm-5.3",
+    "player_id": "espn:4397014",
+    "player_name": "Quentin Grimes",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 582786,
+    "model_calls": 3,
+    "searches": 1,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 128,
+    "round": 13,
+    "pick_in_round": 8,
+    "manager": "moonshot",
+    "model": "kimi-k3",
+    "player_id": "espn:3934673",
+    "player_name": "Donte DiVincenzo",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 166006,
+    "model_calls": 1,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 129,
+    "round": 13,
+    "pick_in_round": 9,
+    "manager": "qwen",
+    "model": "qwen3.8-max-0902",
+    "player_id": "espn:4278594",
+    "player_name": "Naji Marshall",
+    "player_positions": [
+      "F"
+    ],
+    "decision_wall_ms": 391977,
+    "model_calls": 2,
+    "searches": 0,
+    "reads": 0,
+    "usage_complete": true
+  },
+  {
+    "pick_number": 130,
+    "round": 13,
+    "pick_in_round": 10,
+    "manager": "openai",
+    "model": "gpt-6-astra",
+    "player_id": "espn:6606",
+    "player_name": "Damian Lillard",
+    "player_positions": [
+      "G"
+    ],
+    "decision_wall_ms": 136306,
+    "model_calls": 5,
+    "searches": 2,
+    "reads": 2,
+    "usage_complete": true
+  }
+]

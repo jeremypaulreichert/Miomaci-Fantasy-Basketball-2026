@@ -1,0 +1,956 @@
+[
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "reviews/CODEX_PREDRAFT_REVIEW_2026-10-19.md",
+    "sha256": "501ed9bd84ea997ff45f38cb7c0c6ecfba078689a9959ee74b523cccdebffa77",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "reviews/CODEX_RECHECK_2026-10-19.md",
+    "sha256": "592165ffe556a6875e69e850bb39a85b8a62bbc19ba8f7d52f8f0ba47c13fd5f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/COUNTED_INTEGRATION_2026-10-19/OWNER_ANSWERS_2026-10-19.md",
+    "sha256": "939e254b8a955c5afd2d8feb4238430a95f935d50e837531a0ccc6ee75f00698",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/COUNTED_INTEGRATION_2026-10-19/OWNER_DECISIONS.md",
+    "sha256": "233c496a4454bd2b0615715bbfac78587a8348a3ee84995fda1ba6d193e7e1b1",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/COUNTED_SEED_2026-10-19.json",
+    "sha256": "6dc9710342d676bbc3767f4c5c659d5c9611b658a9b0131cb32cdeb5ed4416eb",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-19.json",
+    "sha256": "3542ba0933317903665922da00f8edb5aee3581759aecd36746758f52fa4a06e",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/DRAFT_DAY_SNAPSHOT_2026-10-19B/MANIFEST.json",
+    "sha256": "138fdd0c6823d3555a1965e12ff3e539a8c455ef16ddd6f692ef79a5da36b157",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/FORECAST_ATTEMPT_RULE_2026-10-19.md",
+    "sha256": "4ee4c0b44e7f0113029a5ecef245f591fbc2f41db6ea11c059386ec9885e44e2",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SCORING_WINDOW_RULE_2026-10-19.md",
+    "sha256": "ec7db1180d26b45c7a12b9875d1daba72c6295baa074ae8e1527e59c148b3204",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19F/counted/package.json",
+    "sha256": "aff81df35276e02934539ea25c0bc0aac36d61d2ff90d8552b3a7a0287defefb",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19F/proposal.json",
+    "sha256": "18a28268519def31f191c7352469812d8d3f2fc1004bcfd698a080151e0c3074",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/RUN_ENVIRONMENT_2026-10-19.json",
+    "sha256": "45cfd9cac023ab51e7f633f1630527289f640f0cecb0c9b4b4e9f58f8f55e7da",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/SEAL_CONSISTENCY_2026-10-19.json",
+    "sha256": "e213d1ab3911e69ce83b95e56580da4363f5f7ef4e34d4e2a718a8453be7db83",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/SEAL_FORECAST_A_2026-10-19.json",
+    "sha256": "79ba1a910f595903404ec23340a378a7ad54d05a9e0f92852ad3d03741991000",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/SEAL_FORECAST_B_2026-10-19.json",
+    "sha256": "698bb8dee2ad3ee9f21130d81ba048c4405d93b69da84b3f770564324a0d578e",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "path": "workstreams/build/analysis/prereg_metrics.py",
+    "sha256": "6db24db45ef0f6756846c12cf95c25842bf3eae9bf72be0844fb7b43ca3b3949",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "reviews/COUNTED_READ_POLICY_AND_LIMITS_REVIEW_2026-10-19.md",
+    "sha256": "764949b5b2869bd87e3b7dcf4d7fa7f3304a2fff3fb188ba36d33e1f49de721b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "reviews/DECIDE_NOW_EFFORT_TIMEOUT_REVIEW_2026-10-19.md",
+    "sha256": "bae26a7b6064df34640ca0d4ed7fd0bcc3d96f513699d61250f1b6fe11b2e402",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "reviews/SEARCH_ROW_FILTER_REVIEW_2026-10-19.md",
+    "sha256": "38f74a0709600b4e9e5322fc229893776cc9bef0acc91ff326a0d46bf1cce97a",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-19H.json",
+    "sha256": "aa5e091a3ad35c666af582bbe565b0f759413238b0667dba476065f9150764ae",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_RESTART_AMENDMENT_2026-10-19.md",
+    "sha256": "1203d8a7882790f721b156803811466b00b5e9877baa8a8a188ec7d03c2a655e",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19H/counted/package.json",
+    "sha256": "ab57de276453bcbd6517b8af838c827316cc61db0b7b79a6233809d229f7bee8",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19H/proposal.json",
+    "sha256": "63cf682fb3395e9ccffd6483a00d4781dc30c7e6e08a8bba364c3bd4ade67405",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "sha256": "fdcac5239c0837996bdd2bd26dbcb179e2ab8193aab9fd6a1ff68176a790abcb",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "reviews/CONTINUATION_KIT_REVIEW_2026-10-19.md",
+    "sha256": "7644f3d08344261ece98806b3bd9ece459a7aec3cafffc4b754ac42726bb55fa",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "reviews/SHAPE_CORRECTION_REVIEW_2026-10-19.md",
+    "sha256": "90616ee4cc1fc9ff07b9b406afa28c5d1e738402062d58bef7f5854113e0517d",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-19I.json",
+    "sha256": "5c8d2f40fab3299c3e42807c5b7d6eabb54efa4c68f890149edca64220c84c22",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19I/counted/package.json",
+    "sha256": "87d0a4161ca15bf0fd829f0e27f3ff0fc46e2f658afbd59c31459f72ffbf0526",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19I/proposal.json",
+    "sha256": "29f62b6fbd3c015765c67d1159476c3046322fcb3d0d85b410a9a97b839b282b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_CONTINUATION_AMENDMENT_2026-10-19.md",
+    "sha256": "d556b904a1b0efef7d7808bc3f3dc9c31df62d04bda8c476410733c8a295f56c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "sha256": "c6bb0af7a9535935f38b04d2eb5580830484abc085886d9ae891ad7b8747661c",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261019H.json",
+    "sha256": "3bec87bee7987890a0b5aa8e290d7236d750e8510c2fbc48bb21a092f413ff99",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "reviews/STOP_PATH_AUDIT_2026-10-19.md",
+    "sha256": "6cc0af500f103802f9e4c88bc74630cf7919ea56e8918c7b1bd5b2a956d8c898",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-19J.json",
+    "sha256": "74b82b19ec2809753e18b1bb65b2e2bf7f9e185897b47a3f1489269a4d3bcfd4",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19J/counted/package.json",
+    "sha256": "53549e300bd56649f61d5c13591ed928264b9121ad0542747a7601271ed15411",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19J/proposal.json",
+    "sha256": "78b9f816df24411573e1542fdfa2a1c98bd6021c5fe1fb68391778a47515b2c2",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_CONTINUATION_AMENDMENT_J_2026-10-19.md",
+    "sha256": "a1b3850403f67af2fd05cdd7636ab781c5aaea204db7f852d483d18cfcd28a83",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "sha256": "071b58ecd97416f124bfa805ad6581105093f70f79b97eb01bfce39ecbada9c1",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "path": "workstreams/build/incident_recovery.py",
+    "sha256": "968c2d19e5c647fef81e6f28c444ade9afa27bfd3a5e72229eb8b26578dc6632",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20K.json",
+    "sha256": "5c27ad57d6202cfec430702b208bbefcf7da1706c0278201df19908e28d52d99",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20K/counted/package.json",
+    "sha256": "3394bda051bbea03f048af0aa963ebb8667dac33bf4617b691a470e3080a7fe3",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20K/proposal.json",
+    "sha256": "78064296962c1e5ad88291d0eb0d4589e6a73df7bc91b5142504d0b2ac9d0831",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_WINDOW_AMENDMENT_K_2026-10-20.md",
+    "sha256": "9fcf4c22c15a579c628e7440478d3804b899e2985777a5b82134f2b9d286605f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "sha256": "8a61f0b64f4ca5d151478acc2fcbc84e9ac15a95a5643a49cf417da87499b5b3",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261019J.json",
+    "sha256": "1263a1387a39d22dc56b9688119fe9d2762cb7e241882d490838d893399f7e36",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "652575e84ffb002e88f3178d09f5fa9fd89abd86149278dc89928c2b16f750dc",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20L.json",
+    "sha256": "8abe60fb359bc8aa0cf5961949f0184ae62af62091cb78e4a603288eaf0f5041",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20L/counted/package.json",
+    "sha256": "16fd2d1d4999033de07d9911301bf00067bc94bc570e80336ea9fd9f500f9f33",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20L/proposal.json",
+    "sha256": "7ffcbe59e99024ffcd30430f03c1c8bb536d59c9f7f8d10ddfad9fed26dd4142",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_OUTPUT_CAP_AMENDMENT_L_2026-10-20.md",
+    "sha256": "8415d67e7d36bd9f712ef7bf770c53b3542d2a62834d77b9f6a777f8a065f5aa",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "sha256": "9cd44412391eaac94e8d04488423424f9985a9aa806544db392d03ac703a87f6",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020K.json",
+    "sha256": "c0dbcd14a7caadd76ab5fd81dcdb345637073d532035f1eae8a6d28c755907d2",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "59100bbf884f2a738faf8c0d11255ac44c5eb860cc2f7da254f8b79b7bb582bd",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20M.json",
+    "sha256": "d672ee4a3f5bc53ddaa7a821f1be33c14a96e5785264f8f9d60013d5cc1390e8",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20M/counted/package.json",
+    "sha256": "e5c7ba9ef3c2b9b1d4ff2e899e8a2c5cfefe205d43cf59065ce1bcd93cd2e850",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20M/proposal.json",
+    "sha256": "374d3d54ac2821b9bd1c101ac51f32d1fcf7c071d3859e2dc0da97bad4ff0fbb",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_M_2026-10-20.md",
+    "sha256": "51915abec5ed366554cefedd17928323ed17d83ea7594ec89ccab7ba481a453d",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "sha256": "74e8ce124f3240d566a87c4f6eeff8032d9031a86008b708eeb6562ecc3d651b",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020L.json",
+    "sha256": "89ff76312a80829367af83b965eb69c1470c32ab44eabbadb57febf19888a899",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "99397545bb20979634282c32b9f0f8a55d69cf88419f27f3e731f9fee97eb71c",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20N.json",
+    "sha256": "846290dcd9fb66d3818649bbcd5ed33c09d581d0db5ae1d82aee2d519e0ae1db",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20N/counted/package.json",
+    "sha256": "c45ed26151d91d82e3ffbbe47dffdcce9a1f340fc7db5716695b61a95b129e32",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20N/proposal.json",
+    "sha256": "f49ff63d9c83d9cbbfb036ca6299780ddc26fe2fd761a91745b371364dae719d",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "sha256": "fd9dddca1b74ef9a57144540b1501b4fd848a0d740fa3809b710f330ef3015dd",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020M.json",
+    "sha256": "cc057fcc6cf2b59f669de2a8875a330f506f50acfd62b7cbbf530fc869338c4f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "0e0c4f74044423f1d7185a39001e1c4b18dc98a9b707c521186bf386769ae050",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20O.json",
+    "sha256": "9e4bcdf795c102c5a6d10243721d7e2a91bd74502a026016c8ffd83ac3b77c19",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20O/counted/package.json",
+    "sha256": "66b04894eb112296afcdc3e87f0d681a124589284323babae1f0a97695154000",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20O/proposal.json",
+    "sha256": "72ddc41ab51d217fac31daa177a90b37d5e6cef0ac59a208ffd345c85009462c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_N_2026-10-20.md",
+    "sha256": "75bae3ea73135f53c410175052582b7c98fca2914c37f18e27526cc5d0dc2cf1",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_O_2026-10-20.md",
+    "sha256": "32417511b334fedfde7293127b3b45b7d15bf0ca80acb1d4bd205a9a8c47b8c1",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "sha256": "e740857548bddd5dde0e924db2d3dc60f3a4c392ed881400199a45fdc4770968",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020N.json",
+    "sha256": "266d2870788b06a2bd2765060bd98323c8800a4d5a96b3c9c18a05c60ca7f87b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "6b58b0a6e84aabf1de156b5bdc953781fa763d79263fd1edfb21218f0ea92e2b",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20P.json",
+    "sha256": "882b31209e744fbb4c318a241d77202bd458a972108e8fcec4f827bafbc756a0",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20P/counted/package.json",
+    "sha256": "236f252be98298af6a6963f7143a2b067be45c68181e8d3819ab0447d632012f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20P/proposal.json",
+    "sha256": "87e1e97c2d09e99c83802e3909711509c209ccbdf5423d76916c4a2732b9a946",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_P_2026-10-20.md",
+    "sha256": "868678f30903e5af5ec2504a5d079b788ec78fe323a74e809d7e57a23a670ab6",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "sha256": "4d297c9fce28bbefb7298f895532536e334727acfd1e9ae608ebee6b8c968906",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020O.json",
+    "sha256": "cfba9b8559ac28016fb4ff6763b99d6b8a4eee1e72b87bd18076ddce9dbb1f6c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "6b58b0a6e84aabf1de156b5bdc953781fa763d79263fd1edfb21218f0ea92e2b",
+    "status": "historical_version_hash_listed_at_other_path"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20Q.json",
+    "sha256": "cac6bcfe9b6bab1f654f2c75328e8bfdf5ce94016e7263cfd43f5ca780753757",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20Q/counted/package.json",
+    "sha256": "78986e8bceb0623143c14e08b3fb89d3fab08e0f2a51c0054b572950cf86ae46",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20Q/proposal.json",
+    "sha256": "66438f3dd2f7ba684adfd637556500f30ae66844e746c8ed10b8a09acacb2727",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_Q_2026-10-20.md",
+    "sha256": "59bb037c0389f2cd48f04e5c7fb31f861c221f6ab19a4fdcf312e67c4d1c6940",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "sha256": "a260ee62774088c715a17ad0b06a7e291ed7795ff39102d7fedbc7721e5341ec",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020P.json",
+    "sha256": "745513f46418f42f6a419224aa44a81cf0bcc32f2d8203ecc726e65bca89687b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20R.json",
+    "sha256": "707695f82c24ab503c240da9fac2f0d62f499969be184f9b1e0e511305aa27ec",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20R/counted/package.json",
+    "sha256": "24e603072c4ed4459ca05b6e81c91bd22518c1d74824f653b0dcab074c59b7b3",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20R/proposal.json",
+    "sha256": "36fe099e8eac071c76e4ea82a0c5815957713310142b7c06237694091319022f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_ADDENDA_2026-10-20.md",
+    "sha256": "d596c0b2d90a3b3d634850b4351e54b0903b6bbf42135ac98d63b224b8821acd",
+    "status": "documented_597_byte_prefix_of_withheld_original"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_R_2026-10-20.md",
+    "sha256": "5a7fa8c4c226e76ab4718df6fe3365628c7bea1e7c1f6474584a49641d607d3d",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "sha256": "82f3a1d38175f99088d1813748129ec155b889561f650d680538844b5a83bf46",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020Q.json",
+    "sha256": "d37b8f8d4b7d5b2c9c8b6bcfbe3990c3f77ddbe53af3e2cf4012d07c04198a3f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20S.json",
+    "sha256": "1a5b40d702b9b5d2a352fe19aaefa17095e56498f3b999037d1ee0d85a2c7167",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20S/counted/package.json",
+    "sha256": "77474c9fa8e305f3f0903138c26e5442b1aa4cae8b33a79367d52f180c985b7a",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20S/proposal.json",
+    "sha256": "248234c59ed434cce4af5c5266fbb0caa780c7800ad2922b0046c905be640e0b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_S_2026-10-20.md",
+    "sha256": "ff8aad7b6cbac248d10569919644ff9f5f9f58d0a2a496746a48e35ca6e421da",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "sha256": "cff04fcf28785909ea2e0460d5cb17b2e6aea6afa8ea7966a0569c516d9f3bbe",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020R.json",
+    "sha256": "3c39c014c412afa838f17070512f38716e4c7281c1f1f77ca36e735961fe71ac",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20T.json",
+    "sha256": "dbeda115faed4fef10fe898e98373b230f165c01b60cde26591ad7597d585676",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20T/counted/package.json",
+    "sha256": "e480ae2ca243fe50240c739d0226d67837a79ead2d322a1d2ed54f2d55b148d8",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20T/proposal.json",
+    "sha256": "6b51613f7c1a11f71065f4ae584462b901e0e7b7f55b21bc5d1e2ac3ee35317c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_T_2026-10-20.md",
+    "sha256": "944f741296b51b6aae3a64ca4c56cc6a4f488457e9df018f514fcd23560dbe1b",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "sha256": "909a4f8c933faa0c76e0288c65cd721685e09ab0509c8f1ce3bbb44e1516db69",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020S.json",
+    "sha256": "495735b8f41f426ad2b455b84fec1a5cf63f84390e877d444742632331ab6e99",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20U.json",
+    "sha256": "cb233f4cc971c65a62facd67b5f85d4ad66c97cdbff6e32b1416a7bda762982d",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20U/counted/package.json",
+    "sha256": "827868bcf2e3db78367511ec371f487fdbb5a50f43dc9e21864a738264e4c565",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20U/proposal.json",
+    "sha256": "4912931fb539bdc3ecb9b74904b5607dadd200ecf8425494502b96111146c1ae",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_U_2026-10-20.md",
+    "sha256": "8ffcb1d59bd2956c91333f1ef8a0745bd511eb3c3abc3b16dc6424f4c4b6c241",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "sha256": "cf092327abae88e367073469fc22ce71af8e8bca00ce9449bcc5dad38e9ac1c8",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020T.json",
+    "sha256": "fc093db7760bd32a13d543ddf016216d65ee325b3718857996a6218336f3771c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/DECISION_IDS_2026-10-20V.json",
+    "sha256": "f309dbe0d30627c8cea15a63e1e14a2554b43dcdaa731c352020584b13c90a13",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20V/counted/package.json",
+    "sha256": "f6cd68708876af59682b5497f8a17a069765bc67a60a08b7706f85571bfedee8",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20V/proposal.json",
+    "sha256": "67251570a537953e94a9750285857a61c96aea0b1b832eb7b57a0d70418bd70f",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_AMENDMENT_V_2026-10-20.md",
+    "sha256": "0a5179eff89912fe8b0918ca17b95a09882a5f7531ba76dc4ce7b5cd250cc517",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "sha256": "3299612e29839e7b36962f8d49f21eb5fa9961c567a0680feb2751ae878c8323",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "path": "workstreams/build/SETTLED_EXPORT_20261020U.json",
+    "sha256": "245aa659ba5d3f24daae524e455549a6631af45a217eac05e45ae0e16999d7d6",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "reviews/CLAUDE_LESSONS_AND_V2_2026-10-20.md",
+    "sha256": "caac8593179786dce2b80118327f5cb2ef04744eb193599a165e33c19b3d16f2",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "reviews/CODEX_LESSONS_V2_INDEPENDENT_2026-10-20.md",
+    "sha256": "43edb0042c737b9fe06f67785b4b95dd241fc45f8cefad0de9b9d718fc57a580",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "reviews/CODEX_POSTDRAFT_REVIEW_2026-10-20.md",
+    "sha256": "8f047362a151874e64114111b5286bd467d7bf0b75c53fa74052a6c4f44d7b80",
+    "status": "original_withheld_privacy_derivative_retained"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_DRAFT_2026-10-20B/manifest.json",
+    "sha256": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/anthropic/manifest.json",
+    "sha256": "17598fdecefd1c133d6b1f848dac89a71ab88816ad36c2430ef3a26d70adb527",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/deepseek/manifest.json",
+    "sha256": "d5409d26ad59efe72f7fd7eb13e032c616708d5cdea2dd7e90f69c26d741d47d",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/gemini/manifest.json",
+    "sha256": "3232ff6c9e3570b5d869413be11842ce2f3e738c7b9c43fcf8e45435c17d3633",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/meta_direct/manifest.json",
+    "sha256": "449c04ff10d8ffdbaaf5555f3e3535128f6d85fc1b69a1735e8d23204701056a",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/mistral/manifest.json",
+    "sha256": "76c7d488646891d11db6a80e692f2bcc494ae1ded55cfa5e5561e2c3472753a1",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/moonshot/manifest.json",
+    "sha256": "bef9d11e2cf5d60f6d47498df39a69478413e207a9dd9d98032993ded8d11457",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/openai/manifest.json",
+    "sha256": "20353a9276b6687758d90bd454e26976a41e94c45ac5f9055d971d2dd79c11f3",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/qwen/manifest.json",
+    "sha256": "33fc8a9047f8579c908e8ad12c21fd2efc3cd86fb9aaa424eba8ae486976b738",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/xai/manifest.json",
+    "sha256": "602fc4c52e721c7fa43a841269e77313651b89312286d1bc28d04088f353bcca",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/DATASET_SOLO_2026-10-20B/zai/manifest.json",
+    "sha256": "e328248492d10418bc4ea35ecd389444af17591dc08eed67db594f53ac84db96",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/ERRATA_2026-10-20.md",
+    "sha256": "48a48ad7fba9a3336813fc73d200b011d16dabc19dec72b37061cfa8b0a51b7f",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/METRICS_PRESEASON_2026-10-20B.json",
+    "sha256": "9511d7f3a2b3de91c1a3fcccb6c815dfe706d56acef8182189d426769c8d954e",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "sha256": "c56778eafbea1d4ffb62857ee35272e495e9ee3cdba07950154fff8e1a2fa6c3",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "path": "workstreams/build/SCORING_WINDOW_MANIFEST_2026-10-20.json",
+    "sha256": "1677cf8f3f6cf5031b30ecd42b28201508e21beb651dd0eb8b4749bd2d0bcf2f",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "path": "reviews/CLAUDE_LESSONS_AND_V2_2026-10-20_REV3.md",
+    "sha256": "5ab3d4f3b5dc967948497bfc360e53b45378fcc3a8e00e11a2ba9d581cb49a7b",
+    "status": "original_withheld_privacy_derivative_retained"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "path": "reviews/CODEX_POSTDRAFT_REVIEW_2026-10-20.md",
+    "sha256": "8f047362a151874e64114111b5286bd467d7bf0b75c53fa74052a6c4f44d7b80",
+    "status": "original_withheld_privacy_derivative_retained"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/ERRATA_2026-10-20B.md",
+    "sha256": "81179e8c149fccaa7c60d467a6c0d538024e13d838011d538c1c4b397a708ddc",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "path": "workstreams/build/POSTHOC_MEASURES_2026-10-20.json",
+    "sha256": "374875b6fa15a3388caf29eebe5889713c8ae3e21622aa46f9c562bb30e4a9df",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "path": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "sha256": "a838dd1844ed4229a841008c3572fcf68453acd43d80b7bff302db4ce7772d2d",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTERS_SHARED_2026-10-20.json",
+    "sha256": "0458ee583a09c21f9ad4c7dda441f338279fcf2f2a01fe2ffa74256f7cb71d4c",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_anthropic.json",
+    "sha256": "45d5deac8dff17fdd8098fa83df550bb89ead63c303172fc9ccb65b77a0eeacd",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_deepseek.json",
+    "sha256": "17a3db1b3fb138411a326b9320e1a0beb22f4063f1542c69786f245c95fd2416",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_gemini.json",
+    "sha256": "1206155171641d2d76206f3f651aaca9443be8dccc2bfa87c58c1c1506c105a1",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_meta_direct.json",
+    "sha256": "afa087ca163634000d65ea22412fd38ea92ae6bb1f313b0cf8b89b0bdc0984f8",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_mistral.json",
+    "sha256": "9cb0798083b5c528424eabcc27d25ed4946bc08b6d28ed4a7344a7b23ea06239",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_moonshot.json",
+    "sha256": "701133f0c35c0dd3479cc15682ee407d011e9889a889c9b27399716922fb7038",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_openai.json",
+    "sha256": "5c3d4fd1ffdffda7a97fc95e3f70d7ba8402cc0527a6c730548d49df974041ce",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_qwen.json",
+    "sha256": "0f76cebfdb76c756414c885a584299e5134966a0cd78d943bdedbb99e177e83e",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_xai.json",
+    "sha256": "aa867323eeb3edc2036ca46830bf655603ddbac6eabd53de4516335d1bae6fdd",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FINAL_ROSTER_SOLO_zai.json",
+    "sha256": "d2d1afd4ac39383edad16716c0b05f4bda567d525c27b82cf5dd3cb9a04f47f0",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/FINAL_PICK_AND_SCORING_WINDOW_2026-10-20.md",
+    "sha256": "51f6c7ce14bdb52a4cd5b25d3fd09a241858c268c71d9e30e55a9fc2a09dc6b6",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SCORING_WINDOW_RULE_2026-10-19.md",
+    "sha256": "ec7db1180d26b45c7a12b9875d1daba72c6295baa074ae8e1527e59c148b3204",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "path": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "sha256": "ee192e508836e7ffa84c76ee836532ffa69575ad3128f1c2e504622a671dfca1",
+    "status": "retained_exact"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_SOLO_2026-10-20.json",
+    "path": "workstreams/build/DECISION_IDS_SOLO_2026-10-20.json",
+    "sha256": "a2a7ebf41cdb01dddc5a436be1fb3e9090c139ce28542eb8b1bd3c422b6a9854",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_SOLO_2026-10-20.json",
+    "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SOLO_ROSTERS_AMENDMENT_2026-10-20.md",
+    "sha256": "246811796a9f8d31fa495127b78777ae5031464895e15c31a2a1e5cf62af6cb5",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_SOLO_2026-10-20.json",
+    "path": "workstreams/build/FRONTIER_SOLO_2026-10-20/proposal.json",
+    "sha256": "69685c788fe055dd9978fff7df97a0b862d82338dd3f4873368381d05c1ea011",
+    "status": "withheld_original_hash_listed"
+  },
+  {
+    "seal": "workstreams/build/PUBLIC_SEAL_SOLO_2026-10-20.json",
+    "path": "workstreams/build/prepare_frontier_launch.py",
+    "sha256": "419ff88bcf998e4314380622bd0954aff0c5d9192fc6ec1ae7bfd52ba451e452",
+    "status": "historical_version_hash_listed_at_other_path"
+  }
+]

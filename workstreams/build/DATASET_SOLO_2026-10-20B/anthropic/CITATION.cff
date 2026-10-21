@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it as below.
+type: dataset
+title: "Miomaci AI Fantasy Basketball Solo Roster: anthropic"
+version: 0.1.0
+authors:
+  - name: "Jeremy Reichert"
+# license-url, date-released and doi: added at publication (owner decisions pending)
+keywords:
+  - "AI agents"
+  - "LLM evaluation"
+  - "fantasy basketball"
+  - "decision making"
+  - "web research"
+  - "forecasting"
+  - "NBA"
+  - "frontier models"
+abstract: "One frontier AI model building its own 13-player fantasy basketball roster alone, without competition, under the same rules, research limits and player packet as the shared draft. Records give model identity, timing, research counts, source domains, token usage, estimated cost, failures and each selected player, plus a naive per-turn baseline. Companion shared-draft and forecast files are separate datasets."

@@ -1,0 +1,52 @@
+[
+  {
+    "seat": 1,
+    "provider": "anthropic",
+    "configured_model": "claude-fable-5-1"
+  },
+  {
+    "seat": 2,
+    "provider": "gemini",
+    "configured_model": "gemini-4-argon"
+  },
+  {
+    "seat": 3,
+    "provider": "deepseek",
+    "configured_model": "deepseek-v4-pro"
+  },
+  {
+    "seat": 4,
+    "provider": "mistral",
+    "configured_model": "mistral-large-4-0"
+  },
+  {
+    "seat": 5,
+    "provider": "xai",
+    "configured_model": "grok-4.7"
+  },
+  {
+    "seat": 6,
+    "provider": "meta_direct",
+    "configured_model": "muse-wonder-1.0"
+  },
+  {
+    "seat": 7,
+    "provider": "zai",
+    "configured_model": "glm-5.3"
+  },
+  {
+    "seat": 8,
+    "provider": "moonshot",
+    "configured_model": "kimi-k3"
+  },
+  {
+    "seat": 9,
+    "provider": "qwen",
+    "configured_model": "qwen3.8-max-0902"
+  },
+  {
+    "seat": 10,
+    "provider": "openai",
+    "configured_model": "gpt-6-astra"
+  }
+]

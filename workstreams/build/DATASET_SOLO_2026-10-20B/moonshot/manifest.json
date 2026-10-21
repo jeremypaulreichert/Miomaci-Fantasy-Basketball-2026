@@ -1,0 +1,115 @@
+{
+ "schema": "miomaci-counted-decision-dataset/1",
+ "run_id": "research-incident-quota-counted-solo-moonshot-20261020a",
+ "config_hash": "123e60b37ec7bb8b47043d963031fa5482f81dcb995ecae3086ff023a28b57e8",
+ "journal_sha256": "db0b1c84a78cdd514aeec64662005ec0f0fafe66b57df897e49b433aa24b9385",
+ "journal_head": "3a1519ad566eb0787c1912258834ffde3638355f836115832bbeeb9081e62384",
+ "events": 52,
+ "counts": {
+  "decisions": 13,
+  "calls": 13
+ },
+ "final_phase": "COMPLETE",
+ "final_pause": null,
+ "complete": true,
+ "include_text": false,
+ "canary": false,
+ "segments": [],
+ "timing": {
+  "schema": "miomaci-draft-timing/1",
+  "common_window": {
+   "shared_final_pick_settled_ms": 1792529601015,
+   "shared_manifest_sha256": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9",
+   "shared_run_id": "research-incident-quota-counted-frontier-20261020v"
+  },
+  "first_counted_tipoff_ms": 1792522800000,
+  "counted_hard_limit_ms": 1792695600000,
+  "draft_complete": true,
+  "first_pick_settled_ms": 1792504681612,
+  "final_pick_settled_ms": 1792506032260,
+  "scoring_window_start_ms": 1792529601015,
+  "finished_before_first_tipoff": true,
+  "picks_settled_after_first_tipoff": 0,
+  "rule": "Only regular-season games tipping off after the final settled counted pick count, for every roster; if the draft finished before the first tipoff, the window starts at that tipoff.",
+  "disclosure": null
+ },
+ "accounting": {
+  "counted": {
+   "model_calls": 13,
+   "service_calls": 0,
+   "searches": 0,
+   "reads": 0,
+   "service_calls_without_result": 0,
+   "model_calls_without_usage": 0,
+   "input_tokens": 701630,
+   "input_tokens_known": 701630,
+   "input_tokens_missing_calls": 0,
+   "output_tokens": 54729,
+   "output_tokens_known": 54729,
+   "output_tokens_missing_calls": 0,
+   "reasoning_tokens": 53331,
+   "reasoning_tokens_known": 53331,
+   "reasoning_tokens_missing_calls": 0,
+   "estimated_charge_micro_usd": 5095715,
+   "estimated_charge_micro_usd_known": 5095715,
+   "estimated_charge_micro_usd_missing_calls": 0,
+   "unknown_charge_reserved_micro_usd": 0,
+   "usage_complete": true,
+   "note": "Estimated charges use maximum applicable list rates, not invoices; null totals mean some calls did not report the value (see *_known and *_missing_calls)."
+  },
+  "superseded_attempts": {
+   "model_calls": 0,
+   "service_calls": 0,
+   "searches": 0,
+   "reads": 0,
+   "service_calls_without_result": 0,
+   "model_calls_without_usage": 0,
+   "input_tokens": 0,
+   "input_tokens_known": 0,
+   "input_tokens_missing_calls": 0,
+   "output_tokens": 0,
+   "output_tokens_known": 0,
+   "output_tokens_missing_calls": 0,
+   "reasoning_tokens": 0,
+   "reasoning_tokens_known": 0,
+   "reasoning_tokens_missing_calls": 0,
+   "estimated_charge_micro_usd": 0,
+   "estimated_charge_micro_usd_known": 0,
+   "estimated_charge_micro_usd_missing_calls": 0,
+   "unknown_charge_reserved_micro_usd": 0,
+   "usage_complete": true,
+   "note": "Estimated charges use maximum applicable list rates, not invoices; null totals mean some calls did not report the value (see *_known and *_missing_calls)."
+  }
+ },
+ "sealed_store_verification": null,
+ "public_seal_coverage": {
+  "covered": [],
+  "not_in_a_public_seal": [
+   {
+    "path": "workstreams/build/FRONTIER_SOLO_2026-10-20/moonshot.json",
+    "sha256": "28e83b033bd566feb60caf4f063ff05cf286a3d63234cae72ea44bb74270dcb3"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-solo-moonshot-20261020a.sqlite3",
+    "sha256": "db0b1c84a78cdd514aeec64662005ec0f0fafe66b57df897e49b433aa24b9385"
+   },
+   {
+    "path": "workstreams/build/DATASET_DRAFT_2026-10-20B/manifest.json",
+    "sha256": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9"
+   }
+  ]
+ },
+ "files": {
+  "CITATION.cff": "95583826727ce6b350a59319b98568aec042b58c24378bb10096757e368a5bef",
+  "DATA_CARD.md": "c49a441380dd18aeffb1a92490c23c459a84b5dcc3b13c0f72e560c82cf4c7d1",
+  "calls.jsonl": "8fc0fed92112ab4c312b084f8d89ad792d9e29c1f3031f97a6fff9f46bbf072b",
+  "croissant.json": "8c5c0694423c64af62a0dc83a03617fadbedca5b43daefda2a6f73c34053e477",
+  "dataset.jsonld": "958e2960b7f6e957ae1f5e3b67162390dbf99c33b4e52bb281668e0628453ef7",
+  "decisions.csv": "d15dd2c01bfbc37c3fd97f52ab54f599ef03cb1e10177f5e543aebd756d8979c",
+  "decisions.jsonl": "3b52dae186fef08821dddd07e139576f475838b6308d8ec5e83659d2ad49044f",
+  "prompts.json": "7036e12646b4f62398a06a21d51b49c920c99b6dfae38d9ada885b0265407134",
+  "rules.json": "337e46fd36dd07abb97010bd4464fb5b61c0e9c5d86f375cd4b5382c314e6e90",
+  "timing.json": "ab4647d441bdc34e9ccdfff0732c77790eff201fdb6455aa1e909c9e57e1094a"
+ },
+ "published": false
+}

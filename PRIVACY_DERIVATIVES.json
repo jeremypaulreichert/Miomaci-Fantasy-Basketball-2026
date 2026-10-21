@@ -1,0 +1,27 @@
+[
+  {
+    "path": "reviews/CLAUDE_LESSONS_AND_V2_2026-10-20_REV3.md",
+    "original_sha256": "5ab3d4f3b5dc967948497bfc360e53b45378fcc3a8e00e11a2ba9d581cb49a7b",
+    "released_sha256": "a0f25585434df072e351397f956c05d797c3286d336724e8dc3de8175b15a722",
+    "categories": [
+      "PRIVATE_ACCOUNT_LIMIT"
+    ]
+  },
+  {
+    "path": "reviews/CODEX_POSTDRAFT_REVIEW_2026-10-20.md",
+    "original_sha256": "8f047362a151874e64114111b5286bd467d7bf0b75c53fa74052a6c4f44d7b80",
+    "released_sha256": "dcbc6e22aa2aca5843ec70d8fff05970db01fcbe6461bffde7f1bc63bc031028",
+    "categories": [
+      "LOCAL_PROJECT_PATH",
+      "PORTABLE_SOURCE_LINKS"
+    ]
+  },
+  {
+    "path": "src/fantasy_basketball/providers/native.py",
+    "original_sha256": "a2dd34101bc65c0725cd0b33f9bbb03224cae3c4795696b3295a9b5f1a92cf31",
+    "released_sha256": "ba5daadfd81a824a914e71bc320a7491cefbc1927952d8eeca78c23cacedcc9f",
+    "categories": [
+      "PROVIDER_WORKSPACE_ID"
+    ]
+  }
+]

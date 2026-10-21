@@ -1,0 +1,155 @@
+{
+  "schema": "basketball-posthoc-measures/1",
+  "label": "POST HOC. Written Oct 20 2026 after results were seen, in response to Codex review. Does not replace any sealed metric.",
+  "definitions": {
+    "successful_episode_wall_s_mean": "Sealed metric mean_decision_seconds: wall time of the episode that settled each pick only.",
+    "all_attempt_active_call_s_per_pick": "Sum of elapsed_ms of every call (counted and superseded) attributed to the manager's 13 logical picks, divided by 13. Excludes owner waiting between runs and local overhead.",
+    "baseline_gap_usable_pairs": "Picks where both chosen and baseline prior-season values exist. Missing rows are excluded from the mean, not scored as zero."
+  },
+  "sources": {
+    "DATASET_DRAFT_2026-10-20B/decisions.jsonl": "6b5332ac9d5b5a911ad603971e8657903f604593357e97d9b6ab4e88db023dbe",
+    "DATASET_DRAFT_2026-10-20B/calls.jsonl": "bd39ab4da6d74a3c4980ce26ab983e4d3fbeb544c33f82d84dec7c7e97215085",
+    "DATASET_DRAFT_2026-10-20B/manifest.json": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9"
+  },
+  "managers": {
+    "anthropic": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 184.4,
+      "all_attempt_active_call_s_per_pick": 183.7,
+      "calls_all_attempts": 35,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 12,
+      "baseline_gap_mean_over_usable": 2.74,
+      "baseline_gap_missing_picks": [
+        {
+          "pick": 80,
+          "player": "Kyrie Irving"
+        }
+      ]
+    },
+    "deepseek": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 148.1,
+      "all_attempt_active_call_s_per_pick": 194.3,
+      "calls_all_attempts": 18,
+      "superseded_calls": 4,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 2.12,
+      "baseline_gap_missing_picks": []
+    },
+    "gemini": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 200.4,
+      "all_attempt_active_call_s_per_pick": 198.7,
+      "calls_all_attempts": 76,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 10,
+      "baseline_gap_mean_over_usable": 4.42,
+      "baseline_gap_missing_picks": [
+        {
+          "pick": 82,
+          "player": "Mikal Bridges"
+        },
+        {
+          "pick": 119,
+          "player": "Cameron Boozer"
+        },
+        {
+          "pick": 122,
+          "player": "AJ Dybantsa"
+        }
+      ]
+    },
+    "meta_direct": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 72.2,
+      "all_attempt_active_call_s_per_pick": 71.6,
+      "calls_all_attempts": 24,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 3.52,
+      "baseline_gap_missing_picks": []
+    },
+    "mistral": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 749.6,
+      "all_attempt_active_call_s_per_pick": 1309.8,
+      "calls_all_attempts": 43,
+      "superseded_calls": 21,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 2.82,
+      "baseline_gap_missing_picks": []
+    },
+    "moonshot": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 132.7,
+      "all_attempt_active_call_s_per_pick": 132.2,
+      "calls_all_attempts": 14,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 4.15,
+      "baseline_gap_missing_picks": []
+    },
+    "openai": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 125.3,
+      "all_attempt_active_call_s_per_pick": 122.4,
+      "calls_all_attempts": 103,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 8,
+      "baseline_gap_mean_over_usable": 2.84,
+      "baseline_gap_missing_picks": [
+        {
+          "pick": 50,
+          "player": "Tyrese Haliburton"
+        },
+        {
+          "pick": 51,
+          "player": "Josh Giddey"
+        },
+        {
+          "pick": 91,
+          "player": "Matas Buzelis"
+        },
+        {
+          "pick": 111,
+          "player": "Coby White"
+        },
+        {
+          "pick": 130,
+          "player": "Damian Lillard"
+        }
+      ]
+    },
+    "qwen": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 268.0,
+      "all_attempt_active_call_s_per_pick": 267.5,
+      "calls_all_attempts": 16,
+      "superseded_calls": 0,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 3.61,
+      "baseline_gap_missing_picks": []
+    },
+    "xai": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 407.4,
+      "all_attempt_active_call_s_per_pick": 439.3,
+      "calls_all_attempts": 33,
+      "superseded_calls": 2,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 4.45,
+      "baseline_gap_missing_picks": []
+    },
+    "zai": {
+      "settled_picks": 13,
+      "successful_episode_wall_s_mean": 190.9,
+      "all_attempt_active_call_s_per_pick": 199.3,
+      "calls_all_attempts": 20,
+      "superseded_calls": 1,
+      "baseline_gap_usable_pairs": 13,
+      "baseline_gap_mean_over_usable": 3.17,
+      "baseline_gap_missing_picks": []
+    }
+  }
+}

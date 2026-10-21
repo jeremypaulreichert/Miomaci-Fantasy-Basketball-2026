@@ -1,0 +1,65 @@
+{
+  "schema": "miomaci-allowlist-release/1",
+  "source_tag": "draft-sealed-2026-10-20",
+  "source_commit": "3ddf045b162c37676dc82684aae071377665337a",
+  "allowlist": [
+    "src/",
+    "tests/",
+    "config/project.json",
+    "evidence/data/fixtures/rules.json",
+    "workstreams/build/DATASET_DRAFT_2026-10-20B/",
+    "workstreams/build/DATASET_SOLO_2026-10-20B/",
+    ".gitattributes",
+    "pyproject.toml"
+  ],
+  "additional_tag_paths": [
+    "reviews/CLAUDE_LESSONS_AND_V2_2026-10-20_REV3.md",
+    "reviews/CODEX_LESSONS_V2_INDEPENDENT_2026-10-20.md",
+    "reviews/CODEX_POSTDRAFT_REVIEW_2026-10-20.md",
+    "workstreams/build/FRONTIER_LAUNCH_2026-10-19/ERRATA_2026-10-20.md",
+    "workstreams/build/FRONTIER_LAUNCH_2026-10-19/ERRATA_2026-10-20B.md",
+    "workstreams/build/METRICS_PRESEASON_2026-10-20B.json",
+    "workstreams/build/POSTHOC_MEASURES_2026-10-20.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19.json.ots",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19H.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19H.json.ots",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-19J.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20K.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20L.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20M.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20N.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20O.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20P.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20Q.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20R.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20S.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20T.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20U.json",
+    "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+    "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+    "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json",
+    "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json",
+    "workstreams/build/PUBLIC_SEAL_FINAL_ROSTERS_2026-10-20.json.ots",
+    "workstreams/build/PUBLIC_SEAL_SOLO_2026-10-20.json",
+    "workstreams/build/SCORING_WINDOW_MANIFEST_2026-10-20.json",
+    "workstreams/build/SEAL_VERIFICATION_NOTES_2026-10-20.md"
+  ],
+  "post_tag_proofs": [
+    {
+      "path": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20B.json.ots",
+      "sha256": "d77c4a4d1f606de13ff781d592aec9452be6dcd68f79cf8ecad76479a25ca50f",
+      "size": 462
+    }
+  ],
+  "omitted_tag_files": 2775,
+  "omitted_sqlite_journals": 122,
+  "privacy_derivatives": "PRIVACY_DERIVATIVES.json",
+  "replaced_root_files": [
+    ".gitignore",
+    "README.md"
+  ],
+  "withheld_original_versions_excluding_privacy_derivatives": 2777,
+  "attribution_restored_tag_files": 33
+}

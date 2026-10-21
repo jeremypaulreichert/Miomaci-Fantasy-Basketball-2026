@@ -1,0 +1,78 @@
+{
+ "schema": "miomaci-scoring-window/1",
+ "rule_file": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SCORING_WINDOW_RULE_2026-10-19.md",
+ "rule_sha256": "ec7db1180d26b45c7a12b9875d1daba72c6295baa074ae8e1527e59c148b3204",
+ "scoring_window_start_ms": 1792529601015,
+ "scoring_window_start_utc": "2026-10-20T20:53:21.015Z",
+ "comparison": "strictly after: a game counts only if its actual tipoff time is later than scoring_window_start_ms",
+ "shared": {
+  "run_id": "research-incident-quota-counted-frontier-20261020v",
+  "manifest": "workstreams/build/DATASET_DRAFT_2026-10-20B/manifest.json",
+  "manifest_sha256": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9",
+  "journal_sha256": "09126779eef5e105d61210f580dc8be03938fa97bfff6c401a2543d44b472415"
+ },
+ "solo": [
+  {
+   "run_id": "research-incident-quota-counted-solo-anthropic-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/anthropic/manifest.json",
+   "manifest_sha256": "17598fdecefd1c133d6b1f848dac89a71ab88816ad36c2430ef3a26d70adb527",
+   "final_pick_settled_ms": 1792505490407
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-deepseek-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/deepseek/manifest.json",
+   "manifest_sha256": "d5409d26ad59efe72f7fd7eb13e032c616708d5cdea2dd7e90f69c26d741d47d",
+   "final_pick_settled_ms": 1792506222965
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-gemini-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/gemini/manifest.json",
+   "manifest_sha256": "3232ff6c9e3570b5d869413be11842ce2f3e738c7b9c43fcf8e45435c17d3633",
+   "final_pick_settled_ms": 1792506356707
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-meta-direct-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/meta_direct/manifest.json",
+   "manifest_sha256": "449c04ff10d8ffdbaaf5555f3e3535128f6d85fc1b69a1735e8d23204701056a",
+   "final_pick_settled_ms": 1792504940564
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-mistral-20261020b",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/mistral/manifest.json",
+   "manifest_sha256": "76c7d488646891d11db6a80e692f2bcc494ae1ded55cfa5e5561e2c3472753a1",
+   "final_pick_settled_ms": 1792529050778
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-moonshot-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/moonshot/manifest.json",
+   "manifest_sha256": "bef9d11e2cf5d60f6d47498df39a69478413e207a9dd9d98032993ded8d11457",
+   "final_pick_settled_ms": 1792506032260
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-openai-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/openai/manifest.json",
+   "manifest_sha256": "20353a9276b6687758d90bd454e26976a41e94c45ac5f9055d971d2dd79c11f3",
+   "final_pick_settled_ms": 1792506221791
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-qwen-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/qwen/manifest.json",
+   "manifest_sha256": "33fc8a9047f8579c908e8ad12c21fd2efc3cd86fb9aaa424eba8ae486976b738",
+   "final_pick_settled_ms": 1792506789450
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-xai-20261020a",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/xai/manifest.json",
+   "manifest_sha256": "602fc4c52e721c7fa43a841269e77313651b89312286d1bc28d04088f353bcca",
+   "final_pick_settled_ms": 1792507243013
+  },
+  {
+   "run_id": "research-incident-quota-counted-solo-zai-20261020b",
+   "manifest": "workstreams/build/DATASET_SOLO_2026-10-20B/zai/manifest.json",
+   "manifest_sha256": "e328248492d10418bc4ea35ecd389444af17591dc08eed67db594f53ac84db96",
+   "final_pick_settled_ms": 1792506187620
+  }
+ ],
+ "first_scheduled_tipoff_ms": 1792522800000,
+ "note": "Every actuals release must cite this file's SHA-256 and resolve actual tipoff times and postponements with provenance."
+}

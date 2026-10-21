@@ -1,0 +1,30 @@
+{
+ "schema": "basketball-public-seal/1",
+ "created_utc": "2026-10-20 22:00 UTC",
+ "seal_sha256": "24a9be842055d2e55092362d928d00b925f415922c26d40597b76263fb358b3e",
+ "files": [
+  {
+   "path": "reviews/CLAUDE_LESSONS_AND_V2_2026-10-20_REV3.md",
+   "sha256": "5ab3d4f3b5dc967948497bfc360e53b45378fcc3a8e00e11a2ba9d581cb49a7b"
+  },
+  {
+   "path": "reviews/CODEX_POSTDRAFT_REVIEW_2026-10-20.md",
+   "sha256": "8f047362a151874e64114111b5286bd467d7bf0b75c53fa74052a6c4f44d7b80"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/ERRATA_2026-10-20B.md",
+   "sha256": "81179e8c149fccaa7c60d467a6c0d538024e13d838011d538c1c4b397a708ddc"
+  },
+  {
+   "path": "workstreams/build/POSTHOC_MEASURES_2026-10-20.json",
+   "sha256": "374875b6fa15a3388caf29eebe5889713c8ae3e21622aa46f9c562bb30e4a9df"
+  },
+  {
+   "path": "workstreams/build/PUBLIC_SEAL_DATASET_2026-10-20.json",
+   "sha256": "a838dd1844ed4229a841008c3572fcf68453acd43d80b7bff302db4ce7772d2d"
+  }
+ ],
+ "how_to_verify": "SHA-256 of the compact sorted JSON list of {path, sha256} entries above.",
+ "suggested_post": "Miomaci AI fantasy basketball experiment: files sealed 2026-10-20 22:00 UTC. SHA-256: 24a9be842055d2e55092362d928d00b925f415922c26d40597b76263fb358b3e",
+ "published": false
+}

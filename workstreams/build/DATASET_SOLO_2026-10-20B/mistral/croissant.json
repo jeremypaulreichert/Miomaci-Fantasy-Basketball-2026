@@ -1,0 +1,542 @@
+{
+ "@context": {
+  "@language": "en",
+  "@vocab": "https://schema.org/",
+  "cr": "http://mlcommons.org/croissant/",
+  "sc": "https://schema.org/",
+  "dct": "http://purl.org/dc/terms/",
+  "data": {
+   "@id": "cr:data",
+   "@type": "@json"
+  },
+  "field": "cr:field",
+  "fileObject": "cr:fileObject",
+  "source": "cr:source",
+  "extract": "cr:extract",
+  "column": "cr:column",
+  "recordSet": "cr:recordSet",
+  "dataType": {
+   "@id": "cr:dataType",
+   "@type": "@vocab"
+  },
+  "conformsTo": "dct:conformsTo"
+ },
+ "@type": "sc:Dataset",
+ "conformsTo": "http://mlcommons.org/croissant/1.0",
+ "name": "Miomaci AI Fantasy Basketball Solo Roster: mistral",
+ "description": "One frontier AI model building its own 13-player fantasy basketball roster alone, without competition, under the same rules, research limits and player packet as the shared draft. Records give model identity, timing, research counts, source domains, token usage, estimated cost, failures and each selected player, plus a naive per-turn baseline. Companion shared-draft and forecast files are separate datasets.",
+ "license": "LICENSE_PENDING_OWNER_DECISION",
+ "url": "LANDING_PAGE_URL_PENDING_OWNER",
+ "version": "0.1.0",
+ "datePublished": null,
+ "temporalCoverage": "2026-10-19/2027-04-11",
+ "keywords": [
+  "AI agents",
+  "LLM evaluation",
+  "fantasy basketball",
+  "decision making",
+  "web research",
+  "forecasting",
+  "NBA",
+  "frontier models"
+ ],
+ "creator": {
+  "@type": "Person",
+  "name": "Jeremy Reichert"
+ },
+ "isAccessibleForFree": true,
+ "distribution": [
+  {
+   "@type": "cr:FileObject",
+   "@id": "calls.jsonl",
+   "name": "calls.jsonl",
+   "contentUrl": "calls.jsonl",
+   "encodingFormat": "application/jsonlines",
+   "sha256": "a1e11720f45b197edfad0d4b6ded69a166e180e09d0bc87ce966e2fc2fa4c5fa"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "decisions.csv",
+   "name": "decisions.csv",
+   "contentUrl": "decisions.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "b12c03058beded6c4ac601d81b63cc44959add61e00e4c7dbe660833e1f24298"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "decisions.jsonl",
+   "name": "decisions.jsonl",
+   "contentUrl": "decisions.jsonl",
+   "encodingFormat": "application/jsonlines",
+   "sha256": "f66358c5123eaad2f206f1c6c3778b7088c5ce93d12574b50819af584fb4353f"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "pick_attempts.jsonl",
+   "name": "pick_attempts.jsonl",
+   "contentUrl": "pick_attempts.jsonl",
+   "encodingFormat": "application/jsonlines",
+   "sha256": "71dd34526a4ef92b26fdfb1919f2294075d391fd993a4692d9b34460c0174946"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "prompts.json",
+   "name": "prompts.json",
+   "contentUrl": "prompts.json",
+   "encodingFormat": "application/json",
+   "sha256": "1b9dbb8f728cf62f19150c33880a93872e5b5fcfdbbee47ba36c095a36b157d9"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "rules.json",
+   "name": "rules.json",
+   "contentUrl": "rules.json",
+   "encodingFormat": "application/json",
+   "sha256": "fa27e9f4bc015358c6ac0546c55306e7be319ddb0e7eeb5675579674c31160d1"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "timing.json",
+   "name": "timing.json",
+   "contentUrl": "timing.json",
+   "encodingFormat": "application/json",
+   "sha256": "51a79b6c4eeb3f4bcc90a0ea0d88226f6348f9be4dd1112e7ab288dff2131c97"
+  }
+ ],
+ "recordSet": [
+  {
+   "@type": "cr:RecordSet",
+   "@id": "decisions",
+   "name": "decisions",
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/decision_id",
+     "name": "decision_id",
+     "description": "Permanent decision identifier (mbd1)",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "decision_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/arm",
+     "name": "arm",
+     "description": "shared_draft or solo_roster",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "arm"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/pick_number",
+     "name": "pick_number",
+     "description": "1-based pick",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "pick_number"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/round",
+     "name": "round",
+     "description": "Draft round",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "round"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/manager",
+     "name": "manager",
+     "description": "AI company seat",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "manager"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/model",
+     "name": "model",
+     "description": "Exact requested model ID",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "model"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/status",
+     "name": "status",
+     "description": "SETTLED / OPEN_OR_PAUSED / NOT_REACHED",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "status"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/player_id",
+     "name": "player_id",
+     "description": "Selected player (source-prefixed ID)",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "player_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/player_name",
+     "name": "player_name",
+     "description": "Selected player",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "player_name"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/decision_wall_ms",
+     "name": "decision_wall_ms",
+     "description": "Wall time from turn open to settlement",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "decision_wall_ms"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/model_calls",
+     "name": "model_calls",
+     "description": "Model requests in this turn",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "model_calls"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/searches",
+     "name": "searches",
+     "description": "Web searches",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "searches"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/reads",
+     "name": "reads",
+     "description": "Page reads",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "reads"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/input_tokens",
+     "name": "input_tokens",
+     "description": "Provider-reported input tokens",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "input_tokens"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/output_tokens",
+     "name": "output_tokens",
+     "description": "Provider-reported output tokens",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "output_tokens"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/estimated_charge_micro_usd",
+     "name": "estimated_charge_micro_usd",
+     "description": "Estimated charge at maximum applicable list rates; null if any call is unknown",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "estimated_charge_micro_usd"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/usage_complete",
+     "name": "usage_complete",
+     "description": "Every model call in the turn reported tokens and charge",
+     "dataType": "sc:Boolean",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "usage_complete"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/baseline_player_id",
+     "name": "baseline_player_id",
+     "description": "Naive reference pick at the same board (rules.json baseline_spec)",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "baseline_player_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "decisions/baseline_minus_chosen_fppg",
+     "name": "baseline_minus_chosen_fppg",
+     "description": "Reference minus chosen prior-season fantasy points per game",
+     "dataType": "sc:Float",
+     "source": {
+      "fileObject": {
+       "@id": "decisions.jsonl"
+      },
+      "extract": {
+       "column": "baseline_minus_chosen_fppg"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "@type": "cr:RecordSet",
+   "@id": "calls",
+   "name": "calls",
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "calls/call_id",
+     "name": "call_id",
+     "description": "decision_id plus call key",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "call_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/decision_id",
+     "name": "decision_id",
+     "description": "Parent decision",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "decision_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/kind",
+     "name": "kind",
+     "description": "model, search or read",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "kind"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/outcome",
+     "name": "outcome",
+     "description": "Transport outcome",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "outcome"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/observed_model",
+     "name": "observed_model",
+     "description": "Model ID echoed by the provider",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "observed_model"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/elapsed_ms",
+     "name": "elapsed_ms",
+     "description": "Monotonic duration",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "elapsed_ms"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/input_tokens",
+     "name": "input_tokens",
+     "description": "Input tokens",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "input_tokens"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/output_tokens",
+     "name": "output_tokens",
+     "description": "Output tokens",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "output_tokens"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "calls/failure",
+     "name": "failure",
+     "description": "Receipt failure label, if any",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "calls.jsonl"
+      },
+      "extract": {
+       "column": "failure"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

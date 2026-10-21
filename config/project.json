@@ -1,0 +1,17 @@
+{
+  "schema_version": "miomaci.fantasy-basketball.setup/1",
+  "name": "Fantasy Basketball",
+  "experiment_id": "miomaci-basketball-v1",
+  "phase": "SETUP",
+  "execution_mode": "OFFLINE",
+  "competitive_authorization": false,
+  "paid_calls_authorized": false,
+  "publication_authorized": false,
+  "scheduling_authorized": false,
+  "organizer_picks_allowed": false,
+  "unresolved_failure_action": "SAVE_AND_PAUSE",
+  "scoring_rules_frozen": false,
+  "provider_pool_sealed": false,
+  "qualification_budget_micro_usd": null,
+  "draft_budget_micro_usd": null
+}

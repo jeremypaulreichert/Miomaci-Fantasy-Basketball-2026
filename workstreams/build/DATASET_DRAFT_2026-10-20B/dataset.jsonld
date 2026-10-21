@@ -1,0 +1,104 @@
+{
+ "@context": "https://schema.org",
+ "@type": "Dataset",
+ "name": "Miomaci AI Fantasy Basketball Draft Decisions (2026-27 season)",
+ "description": "Every decision made by ten frontier AI models (one per company) acting as managers in a shared 13-round fantasy basketball snake draft held in October 2026, at the start of the NBA 2026-27 regular season, with web research, under fixed scoring rules (ESPN-standard points). Only games tipping off after the final pick are scored. Per-decision records give model identity, timing, research counts, source domains, token usage, estimated cost, failures and the selected player; per-call records give each model request and tool call. Optional companion files hold each AI's sealed pre-draft forecasts, a three-repeat consistency probe, and solo rosters built without competition. Outcomes are scored later against real games. One draft is descriptive, not a causal ranking of companies.",
+ "license": "LICENSE_PENDING_OWNER_DECISION",
+ "version": "0.1.0",
+ "temporalCoverage": "2026-10-19/2027-04-11",
+ "keywords": [
+  "AI agents",
+  "LLM evaluation",
+  "fantasy basketball",
+  "decision making",
+  "web research",
+  "forecasting",
+  "NBA",
+  "frontier models"
+ ],
+ "creator": {
+  "@type": "Person",
+  "name": "Jeremy Reichert"
+ },
+ "isAccessibleForFree": true,
+ "variableMeasured": [
+  "decision_id",
+  "arm",
+  "pick_number",
+  "round",
+  "manager",
+  "model",
+  "status",
+  "player_id",
+  "player_name",
+  "decision_wall_ms",
+  "model_calls",
+  "searches",
+  "reads",
+  "input_tokens",
+  "output_tokens",
+  "estimated_charge_micro_usd",
+  "usage_complete",
+  "baseline_player_id",
+  "baseline_minus_chosen_fppg"
+ ],
+ "distribution": [
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "calls.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "consistency.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "text/csv",
+   "contentUrl": "decisions.csv"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "decisions.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "forecasts.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "forecasts_all_attempts.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "forecasts_recovery.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/jsonlines",
+   "contentUrl": "pick_attempts.jsonl"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/json",
+   "contentUrl": "prompts.json"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/json",
+   "contentUrl": "rules.json"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/json",
+   "contentUrl": "timing.json"
+  }
+ ],
+ "url": "LANDING_PAGE_URL_PENDING_OWNER",
+ "identifier": "DOI_PENDING_OWNER"
+}

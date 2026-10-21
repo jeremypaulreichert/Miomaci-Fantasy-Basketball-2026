@@ -1,0 +1,281 @@
+{
+ "schema": "miomaci-prereg-metrics/1",
+ "actuals_supplied": false,
+ "players_with_actuals": 0,
+ "consistency": [
+  {
+   "provider": "anthropic",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "deepseek",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "gemini",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "meta_direct",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "mistral",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "moonshot",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "openai",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  },
+  {
+   "provider": "qwen",
+   "repeats": 3,
+   "valid": 2,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 0.6667,
+   "all_agree": false
+  },
+  {
+   "provider": "xai",
+   "repeats": 3,
+   "valid": 2,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 0.6667,
+   "all_agree": false
+  },
+  {
+   "provider": "zai",
+   "repeats": 3,
+   "valid": 3,
+   "distinct": 1,
+   "modal_pick": "espn:3112335",
+   "modal_share": 1.0,
+   "all_agree": true
+  }
+ ],
+ "decisions": [
+  {
+   "manager": "anthropic",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 2.739,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 184.4,
+   "mean_searches": 0.62,
+   "mean_reads": 0.15
+  },
+  {
+   "manager": "deepseek",
+   "settled": 13,
+   "same_as_baseline": 4,
+   "mean_prior_fppg_baseline_minus_chosen": 2.119,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 148.1,
+   "mean_searches": 0.0,
+   "mean_reads": 0.0
+  },
+  {
+   "manager": "gemini",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 4.42,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 200.4,
+   "mean_searches": 1.69,
+   "mean_reads": 0.69
+  },
+  {
+   "manager": "meta_direct",
+   "settled": 13,
+   "same_as_baseline": 3,
+   "mean_prior_fppg_baseline_minus_chosen": 3.524,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 72.2,
+   "mean_searches": 0.31,
+   "mean_reads": 0.0
+  },
+  {
+   "manager": "mistral",
+   "settled": 13,
+   "same_as_baseline": 2,
+   "mean_prior_fppg_baseline_minus_chosen": 2.816,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 749.6,
+   "mean_searches": 0.0,
+   "mean_reads": 0.0
+  },
+  {
+   "manager": "moonshot",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 4.153,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 132.7,
+   "mean_searches": 0.0,
+   "mean_reads": 0.0
+  },
+  {
+   "manager": "openai",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 2.839,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 125.3,
+   "mean_searches": 1.92,
+   "mean_reads": 1.54
+  },
+  {
+   "manager": "qwen",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 3.612,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 268.0,
+   "mean_searches": 0.0,
+   "mean_reads": 0.0
+  },
+  {
+   "manager": "xai",
+   "settled": 13,
+   "same_as_baseline": 1,
+   "mean_prior_fppg_baseline_minus_chosen": 4.454,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 407.4,
+   "mean_searches": 0.62,
+   "mean_reads": 0.08
+  },
+  {
+   "manager": "zai",
+   "settled": 13,
+   "same_as_baseline": 3,
+   "mean_prior_fppg_baseline_minus_chosen": 3.171,
+   "mean_realized_total_baseline_minus_chosen": null,
+   "realized_pairs": 0,
+   "mean_decision_seconds": 190.9,
+   "mean_searches": 0.15,
+   "mean_reads": 0.0
+  }
+ ],
+ "solo_overlap": [
+  {
+   "manager": "anthropic",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 1,
+   "jaccard": 0.04
+  },
+  {
+   "manager": "gemini",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 1,
+   "jaccard": 0.04
+  },
+  {
+   "manager": "deepseek",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 1,
+   "jaccard": 0.04
+  },
+  {
+   "manager": "xai",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 2,
+   "jaccard": 0.0833
+  },
+  {
+   "manager": "meta_direct",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 1,
+   "jaccard": 0.04
+  },
+  {
+   "manager": "moonshot",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 2,
+   "jaccard": 0.0833
+  },
+  {
+   "manager": "qwen",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 2,
+   "jaccard": 0.0833
+  },
+  {
+   "manager": "openai",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 3,
+   "jaccard": 0.1304
+  },
+  {
+   "manager": "zai",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 2,
+   "jaccard": 0.0833
+  },
+  {
+   "manager": "mistral",
+   "solo_size": 13,
+   "shared_size": 13,
+   "common": 2,
+   "jaccard": 0.0833
+  }
+ ]
+}

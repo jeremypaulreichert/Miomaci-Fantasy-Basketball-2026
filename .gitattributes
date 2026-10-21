@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+evidence/** -text
+
+# This evidence archive must retain original bytes, including line endings.
+* -text

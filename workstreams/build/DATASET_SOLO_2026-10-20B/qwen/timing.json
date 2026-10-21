@@ -1,0 +1,18 @@
+{
+ "schema": "miomaci-draft-timing/1",
+ "common_window": {
+  "shared_final_pick_settled_ms": 1792529601015,
+  "shared_manifest_sha256": "7ef7ff9025c1e909cf757c4e330fbd643a30c9b4df24dc9b088d9fb6ce8369b9",
+  "shared_run_id": "research-incident-quota-counted-frontier-20261020v"
+ },
+ "first_counted_tipoff_ms": 1792522800000,
+ "counted_hard_limit_ms": 1792695600000,
+ "draft_complete": true,
+ "first_pick_settled_ms": 1792504688159,
+ "final_pick_settled_ms": 1792506789450,
+ "scoring_window_start_ms": 1792529601015,
+ "finished_before_first_tipoff": true,
+ "picks_settled_after_first_tipoff": 0,
+ "rule": "Only regular-season games tipping off after the final settled counted pick count, for every roster; if the draft finished before the first tipoff, the window starts at that tipoff.",
+ "disclosure": null
+}

@@ -1,0 +1,6 @@
+{
+  "schema": "miomaci-companion/2",
+  "derived_from": "Corrected B datasets retained in this repository",
+  "selections_match_corrected_exports": true,
+  "note": "New post-draft projection; does not inherit original seal hashes or preregistration status."
+}

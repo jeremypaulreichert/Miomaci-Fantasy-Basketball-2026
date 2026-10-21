@@ -1,0 +1,72 @@
+{
+  "scoring_weights": {
+    "assists": "2",
+    "blocks": "4",
+    "field_goals_attempted": "-1",
+    "field_goals_made": "2",
+    "free_throws_attempted": "-1",
+    "free_throws_made": "1",
+    "points": "1",
+    "rebounds": "1",
+    "steals": "4",
+    "three_point_field_goals_made": "1",
+    "turnovers": "-2"
+  },
+  "roster_size": 13,
+  "lineup_slots": [
+    [
+      "G1",
+      [
+        "G"
+      ]
+    ],
+    [
+      "G2",
+      [
+        "G"
+      ]
+    ],
+    [
+      "F1",
+      [
+        "F"
+      ]
+    ],
+    [
+      "F2",
+      [
+        "F"
+      ]
+    ],
+    [
+      "C1",
+      [
+        "C"
+      ]
+    ],
+    [
+      "U1",
+      [
+        "G",
+        "F",
+        "C"
+      ]
+    ],
+    [
+      "U2",
+      [
+        "G",
+        "F",
+        "C"
+      ]
+    ],
+    [
+      "U3",
+      [
+        "G",
+        "F",
+        "C"
+      ]
+    ]
+  ]
+}

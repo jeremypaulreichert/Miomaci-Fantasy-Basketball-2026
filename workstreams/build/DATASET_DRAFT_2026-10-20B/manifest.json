@@ -1,0 +1,575 @@
+{
+ "schema": "miomaci-counted-decision-dataset/1",
+ "run_id": "research-incident-quota-counted-frontier-20261020v",
+ "config_hash": "acd72639bdee3460be802304d3259607e710171d2e1d4a0c4e8aedd1cb20d2e6",
+ "journal_sha256": "09126779eef5e105d61210f580dc8be03938fa97bfff6c401a2543d44b472415",
+ "journal_head": "59fc76b188fd1a7d8f14024db9b31f4ccb6fdb81de31d2c66a378cd6feea19c8",
+ "events": 84,
+ "counts": {
+  "decisions": 130,
+  "calls": 382,
+  "forecasts": 10,
+  "consistency": 30,
+  "forecasts_recovery": 10,
+  "forecasts_all_attempts": 15
+ },
+ "final_phase": "COMPLETE",
+ "final_pause": null,
+ "complete": true,
+ "include_text": false,
+ "canary": false,
+ "segments": [
+  {
+   "segment": 1,
+   "run_id": "research-incident-quota-counted-frontier-20261019h",
+   "config_hash": "15ba637a2f8f24599dd9a024b1cba90bba4db0ea890f9e1150772d1bf83ed319",
+   "journal_sha256": "94262826eba73ded95098e24e7a07cd822dc45244d1f7b3299d0f88977a481c1",
+   "first_pick": 1,
+   "last_pick": 53,
+   "attempted_pick": 1,
+   "settled_in_segment": 53,
+   "final_phase": "PAUSED",
+   "final_pause": "PICK_SHAPE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball/workstreams/build/state/export-trees/20261019h-b"
+   },
+   "segment_sha256": "7895e314cfff8b60f67f3b8c388c20ec34e6a7d4a4c67314de96eeb624c78a08",
+   "tree_manifest_sha256": "0409e90627b60d8d714a711304bfe5ea8c1c292fe9cd33952574a767eb29d058",
+   "journal_reverified": true
+  },
+  {
+   "segment": 2,
+   "run_id": "research-incident-quota-counted-frontier-20261019j",
+   "config_hash": "174e329829fc8aacef603a3e672926e60397cf60c7c7275f16b0a1ea92e76f18",
+   "journal_sha256": "81799306684eb80f495941433982735767e72ce77c015cf0b394f9e12b7414ce",
+   "first_pick": 54,
+   "last_pick": 56,
+   "attempted_pick": 54,
+   "settled_in_segment": 3,
+   "final_phase": "PAUSED",
+   "final_pause": "RESPONSE_LATE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "5991e569dd5a2f32660082456db8e9b4b1f57438a91f68949764b47aab5dcf31",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 3,
+   "run_id": "research-incident-quota-counted-frontier-20261020k",
+   "config_hash": "0c3b2f0a88bfbdb709e8f6ca65dbb2179940512e37c4a8709a5626bcb50566c8",
+   "journal_sha256": "11e3a0dccc40228ae6d9236cb79bacc1aad2be1e432243eb4d69cfbb33826419",
+   "first_pick": 57,
+   "last_pick": 57,
+   "attempted_pick": 57,
+   "settled_in_segment": 1,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "5b4d22cb826ff3b2b5198998ee5dbcc3cc7bec46725e30efb31aa6a1572339d2",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 4,
+   "run_id": "research-incident-quota-counted-frontier-20261020l",
+   "config_hash": "b0d5d95e48e1328eefbf4d154176c86e7f9213a01c3df327a298337733a9a87e",
+   "journal_sha256": "03af701fba181dd24a2831190e4bb0c2a3f59ce2a193d5a69237ef628cfe85dc",
+   "first_pick": 58,
+   "last_pick": 75,
+   "attempted_pick": 58,
+   "settled_in_segment": 18,
+   "final_phase": "PAUSED",
+   "final_pause": "MODEL_TRANSPORT_FAILED",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "2199838378d502794d2321dab1010233023eb6ce076e3f4815b68b3b7d5fa0ec",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 5,
+   "run_id": "research-incident-quota-counted-frontier-20261020m",
+   "config_hash": "ddf2940ff6078dfead09d5c414dee8b04ade5ddeb388ba23fc4c7c24eabfef47",
+   "journal_sha256": "3b4e06eef22491bd68f0628047443b59a82063cb90b148636075bea2e3a1e404",
+   "first_pick": 76,
+   "last_pick": 96,
+   "attempted_pick": 76,
+   "settled_in_segment": 21,
+   "final_phase": "PAUSED",
+   "final_pause": "MODEL_TRANSPORT_FAILED",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "a788e034c9882bb32512b24feb27bb625db1b7123a763fd1e95d411ab6bcada9",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 6,
+   "run_id": "research-incident-quota-counted-frontier-20261020n",
+   "config_hash": "d061ca3aa60f22e174481dff2687ee9ea633673db298f5c6c449a5b058c0e8df",
+   "journal_sha256": "fad79ab87c8c24ea872f7de3fb0324770a2f96d93454457c1765f18364b7e7ed",
+   "first_pick": null,
+   "last_pick": null,
+   "attempted_pick": 97,
+   "settled_in_segment": 0,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "43fc436c152ca150db5ad5f90d2f201f39e6f3016170138738078cad5dbe1251",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 7,
+   "run_id": "research-incident-quota-counted-frontier-20261020o",
+   "config_hash": "cf50ea417f0ccc0e025aaa333c081ea818dc3288a570743e8e3e4d74e4d72379",
+   "journal_sha256": "e66b3a2c3e36e30f3ca541abc664b5de1ff232543e2b20c7e22d84d9c701ab6d",
+   "first_pick": null,
+   "last_pick": null,
+   "attempted_pick": 97,
+   "settled_in_segment": 0,
+   "final_phase": "PAUSED",
+   "final_pause": "MODEL_TRANSPORT_FAILED",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "2a38363c9bf07cc226cf7d30187d5c89db9964d7d856abf9d37e1871e4e6d42a",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 8,
+   "run_id": "research-incident-quota-counted-frontier-20261020p",
+   "config_hash": "3a7c5d390954188971d57f7623881985e7a5802c555851ae1fcaa28b5789445d",
+   "journal_sha256": "6ea394bc2474b5e6becc7dbea7058b574f02214dda7c9423afbc32e98a4dd136",
+   "first_pick": 97,
+   "last_pick": 116,
+   "attempted_pick": 97,
+   "settled_in_segment": 20,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "fffbaf9cbf6412f7fd85bdb0df579ad58e1971e005ea8b7c4fa05990fa7a3b19",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 9,
+   "run_id": "research-incident-quota-counted-frontier-20261020q",
+   "config_hash": "543d7089cedaa6bf2d102cfb971a155d3617c411a1628fc289489cf9ca19b185",
+   "journal_sha256": "8e9935e5f6e932d4206e0eca7402a11256bdc5aa535133a0df47c04dfe8839bd",
+   "first_pick": null,
+   "last_pick": null,
+   "attempted_pick": 117,
+   "settled_in_segment": 0,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "479aada5ca2349e54708babcdd598eb564f15b8685fe620ff2bb719f27966356",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 10,
+   "run_id": "research-incident-quota-counted-frontier-20261020r",
+   "config_hash": "3011d09ac3e23e0c569c6e90e1c50d6877509cc38f5198a87e9ec51b73eff94a",
+   "journal_sha256": "634ce528a564d2c17b02579391879e3bd7a21b3125adbb3651093628a82a2b30",
+   "first_pick": 117,
+   "last_pick": 117,
+   "attempted_pick": 117,
+   "settled_in_segment": 1,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "0a7b70096f92d1efd447ee77e14943eec7d2efcca55ce8c4b53b1ee61f6208ff",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 11,
+   "run_id": "research-incident-quota-counted-frontier-20261020s",
+   "config_hash": "9c8162740fe49b5566021f8093dae97e7a11a543ea4f83114fcc939475832d1a",
+   "journal_sha256": "3801f13272fe7e460d5498110a48e083e330c684bb2d335057e9c3443cf3a85d",
+   "first_pick": 118,
+   "last_pick": 123,
+   "attempted_pick": 118,
+   "settled_in_segment": 6,
+   "final_phase": "PAUSED",
+   "final_pause": "ILLEGAL_PICK",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "6eca462eff52593510f551be43916e645ab107d6cf6a01aca20c1f02d7d2175c",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 12,
+   "run_id": "research-incident-quota-counted-frontier-20261020t",
+   "config_hash": "b779d1daa691ca3d4fb1e062ff31f4ad6c46672149def2f4197107758426e1fe",
+   "journal_sha256": "8d44a8f558281fd860b1aec27b7db18be974bbdc4551dd23e211e18ec883db30",
+   "first_pick": null,
+   "last_pick": null,
+   "attempted_pick": 124,
+   "settled_in_segment": 0,
+   "final_phase": "PAUSED",
+   "final_pause": "ILLEGAL_PICK",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "b8e2066e8e15e203a4d26f8731fbc9bfe3e288e65f0144578b4a92d88c6b4521",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 13,
+   "run_id": "research-incident-quota-counted-frontier-20261020u",
+   "config_hash": "b9dc0146f7b74955d071120bb16e7f0b5630d31a87821cebca4a7e6067f89bba",
+   "journal_sha256": "6a9f68f923a87a3c61a9cd8ac1ff413a1fe692f1c33a0da366879c222ac6581d",
+   "first_pick": null,
+   "last_pick": null,
+   "attempted_pick": 124,
+   "settled_in_segment": 0,
+   "final_phase": "PAUSED",
+   "final_pause": "INCOMPLETE_RESPONSE",
+   "replayed_with": {
+    "exporter_sha256": "e2011b3f3441fcdd53c02568b8f7c0373a12aa4e5e4e692383ed2446cb370e42",
+    "tree": "/sessions/rcw-016pb9q9vsnzxipif3r4wtnm/mnt/Fantasy Basketball"
+   },
+   "segment_sha256": "905d77d6a082fab8bdf29243327199c268733527c4fdb608f57814be6a63748b",
+   "tree_manifest_sha256": null,
+   "journal_reverified": true
+  },
+  {
+   "segment": 14,
+   "run_id": "research-incident-quota-counted-frontier-20261020v",
+   "config_hash": "acd72639bdee3460be802304d3259607e710171d2e1d4a0c4e8aedd1cb20d2e6",
+   "journal_sha256": "09126779eef5e105d61210f580dc8be03938fa97bfff6c401a2543d44b472415",
+   "first_pick": 124,
+   "last_pick": 130,
+   "attempted_pick": 124,
+   "settled_in_segment": 7,
+   "final_phase": "COMPLETE",
+   "final_pause": null,
+   "journal_reverified": false
+  }
+ ],
+ "timing": {
+  "schema": "miomaci-draft-timing/1",
+  "common_window": null,
+  "first_counted_tipoff_ms": 1792522800000,
+  "counted_hard_limit_ms": 1792695600000,
+  "draft_complete": true,
+  "first_pick_settled_ms": 1792441385786,
+  "final_pick_settled_ms": 1792529601015,
+  "scoring_window_start_ms": 1792529601015,
+  "finished_before_first_tipoff": false,
+  "picks_settled_after_first_tipoff": 7,
+  "rule": "Only regular-season games tipping off after the final settled counted pick count, for every roster; if the draft finished before the first tipoff, the window starts at that tipoff.",
+  "disclosure": "Some picks settled after the first tipoff; those picks could research games already played, although those games are not scored."
+ },
+ "accounting": {
+  "counted": {
+   "model_calls": 253,
+   "service_calls": 101,
+   "searches": 69,
+   "reads": 32,
+   "service_calls_without_result": 0,
+   "model_calls_without_usage": 2,
+   "input_tokens": null,
+   "input_tokens_known": 15804897,
+   "input_tokens_missing_calls": 2,
+   "output_tokens": null,
+   "output_tokens_known": 2486229,
+   "output_tokens_missing_calls": 2,
+   "reasoning_tokens": null,
+   "reasoning_tokens_known": 2465606,
+   "reasoning_tokens_missing_calls": 2,
+   "estimated_charge_micro_usd": null,
+   "estimated_charge_micro_usd_known": 190209382,
+   "estimated_charge_micro_usd_missing_calls": 2,
+   "unknown_charge_reserved_micro_usd": 893908,
+   "usage_complete": false,
+   "note": "Estimated charges use maximum applicable list rates, not invoices; null totals mean some calls did not report the value (see *_known and *_missing_calls)."
+  },
+  "superseded_attempts": {
+   "model_calls": 28,
+   "service_calls": 0,
+   "searches": 0,
+   "reads": 0,
+   "service_calls_without_result": 0,
+   "model_calls_without_usage": 6,
+   "input_tokens": null,
+   "input_tokens_known": 1239563,
+   "input_tokens_missing_calls": 6,
+   "output_tokens": null,
+   "output_tokens_known": 647658,
+   "output_tokens_missing_calls": 6,
+   "reasoning_tokens": null,
+   "reasoning_tokens_known": 646911,
+   "reasoning_tokens_missing_calls": 6,
+   "estimated_charge_micro_usd": null,
+   "estimated_charge_micro_usd_known": 4995361,
+   "estimated_charge_micro_usd_missing_calls": 6,
+   "unknown_charge_reserved_micro_usd": 3529211,
+   "usage_complete": false,
+   "note": "Estimated charges use maximum applicable list rates, not invoices; null totals mean some calls did not report the value (see *_known and *_missing_calls)."
+  }
+ },
+ "sealed_store_verification": [
+  {
+   "run_id": "sealed-forecast-frontier-20261019",
+   "config_hash": "36cf70bf7abedb1ee6786b3505ecc11727337f856f30fe9f053811c3ddf429d3",
+   "kind": "FORECAST",
+   "fingerprint": "f4750d467bb7dd50d6b3459ff6bd0dce2d33afecab71edc8cd51d989ada57f3b",
+   "sealed_utc_ms": 1792433108753,
+   "files": 20
+  },
+  {
+   "run_id": "sealed-forecast-frontier-20261019b",
+   "config_hash": "878149de063efc6c2ada9df8b53c62513b8df694cd956e23df954c79c8e99fba",
+   "kind": "FORECAST",
+   "fingerprint": "e801c94e27776288fb83863bd285741460f9aff097309d32a5d6a559ced3a3c5",
+   "sealed_utc_ms": 1792433109180,
+   "files": 10
+  },
+  {
+   "run_id": "sealed-consistency-frontier-20261019c",
+   "config_hash": "475846aa65544a80990eb1707fdcfdfeba788a568ddfeabefaeb588d241cd414",
+   "kind": "CONSISTENCY",
+   "fingerprint": "3b0293911826d8e9d44b76333ed4648d4aec45beee3c98c4e662b03b448a71fb",
+   "sealed_utc_ms": 1792433109685,
+   "files": 60
+  }
+ ],
+ "public_seal_coverage": {
+  "covered": [
+   {
+    "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-20V/counted/package.json",
+    "sha256": "f6cd68708876af59682b5497f8a17a069765bc67a60a08b7706f85571bfedee8",
+    "sealed_in": [
+     {
+      "seal_sha256": "2dae03927ac64a2aa0f2f0f23fa39c5802edd79b699b4b3fce130ad1043ce93d",
+      "created_utc": "2026-10-20 20:09 UTC"
+     }
+    ]
+   },
+   {
+    "path": "workstreams/build/SEAL_FORECAST_A_2026-10-19.json",
+    "sha256": "79ba1a910f595903404ec23340a378a7ad54d05a9e0f92852ad3d03741991000",
+    "sealed_in": [
+     {
+      "seal_sha256": "d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+      "created_utc": "2026-10-19 18:19 UTC"
+     }
+    ]
+   },
+   {
+    "path": "workstreams/build/SEAL_FORECAST_B_2026-10-19.json",
+    "sha256": "698bb8dee2ad3ee9f21130d81ba048c4405d93b69da84b3f770564324a0d578e",
+    "sealed_in": [
+     {
+      "seal_sha256": "d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+      "created_utc": "2026-10-19 18:19 UTC"
+     }
+    ]
+   },
+   {
+    "path": "workstreams/build/SEAL_CONSISTENCY_2026-10-19.json",
+    "sha256": "e213d1ab3911e69ce83b95e56580da4363f5f7ef4e34d4e2a718a8453be7db83",
+    "sealed_in": [
+     {
+      "seal_sha256": "d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+      "created_utc": "2026-10-19 18:19 UTC"
+     }
+    ]
+   },
+   {
+    "path": "workstreams/build/analysis/prereg_metrics.py",
+    "sha256": "6db24db45ef0f6756846c12cf95c25842bf3eae9bf72be0844fb7b43ca3b3949",
+    "sealed_in": [
+     {
+      "seal_sha256": "d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+      "created_utc": "2026-10-19 18:19 UTC"
+     }
+    ]
+   },
+   {
+    "path": "workstreams/build/FINAL_ROSTERS_SHARED_2026-10-20.json",
+    "sha256": "0458ee583a09c21f9ad4c7dda441f338279fcf2f2a01fe2ffa74256f7cb71d4c",
+    "sealed_in": [
+     {
+      "seal_sha256": "dc012e7a2e4b2093e33e1404ecbc79179bea347ecf147bac3de884054ba946e6",
+      "created_utc": "2026-10-20 21:00 UTC"
+     }
+    ]
+   }
+  ],
+  "not_in_a_public_seal": [
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020v.sqlite3",
+    "sha256": "09126779eef5e105d61210f580dc8be03938fa97bfff6c401a2543d44b472415"
+   },
+   {
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19/forecast/package.json",
+    "sha256": "e46fa91b8bcb5a942ad40d44666a37968f8040170575d1cb596d4fb561e8f72f"
+   },
+   {
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19B/forecast/package.json",
+    "sha256": "d3fb181baf23414d3926c21053b6c2fbc019e43e46e9310fd185b577fef293b6"
+   },
+   {
+    "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19C/consistency/package.json",
+    "sha256": "4779fb7a3752c065826e8b6fb6188642a138a2aff8eba2cf9b81ed87e4b931fe"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261019h.json",
+    "sha256": "7895e314cfff8b60f67f3b8c388c20ec34e6a7d4a4c67314de96eeb624c78a08"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261019j.json",
+    "sha256": "5991e569dd5a2f32660082456db8e9b4b1f57438a91f68949764b47aab5dcf31"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020k.json",
+    "sha256": "5b4d22cb826ff3b2b5198998ee5dbcc3cc7bec46725e30efb31aa6a1572339d2"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020l.json",
+    "sha256": "2199838378d502794d2321dab1010233023eb6ce076e3f4815b68b3b7d5fa0ec"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020m.json",
+    "sha256": "a788e034c9882bb32512b24feb27bb625db1b7123a763fd1e95d411ab6bcada9"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020n.json",
+    "sha256": "43fc436c152ca150db5ad5f90d2f201f39e6f3016170138738078cad5dbe1251"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020o.json",
+    "sha256": "2a38363c9bf07cc226cf7d30187d5c89db9964d7d856abf9d37e1871e4e6d42a"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020p.json",
+    "sha256": "fffbaf9cbf6412f7fd85bdb0df579ad58e1971e005ea8b7c4fa05990fa7a3b19"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020q.json",
+    "sha256": "479aada5ca2349e54708babcdd598eb564f15b8685fe620ff2bb719f27966356"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020r.json",
+    "sha256": "0a7b70096f92d1efd447ee77e14943eec7d2efcca55ce8c4b53b1ee61f6208ff"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020s.json",
+    "sha256": "6eca462eff52593510f551be43916e645ab107d6cf6a01aca20c1f02d7d2175c"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020t.json",
+    "sha256": "b8e2066e8e15e203a4d26f8731fbc9bfe3e288e65f0144578b4a92d88c6b4521"
+   },
+   {
+    "path": "workstreams/build/DATASET_SEGMENTS_2026-10-20/SEGMENT_20261020u.json",
+    "sha256": "905d77d6a082fab8bdf29243327199c268733527c4fdb608f57814be6a63748b"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261019h.sqlite3",
+    "sha256": "94262826eba73ded95098e24e7a07cd822dc45244d1f7b3299d0f88977a481c1"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261019j.sqlite3",
+    "sha256": "81799306684eb80f495941433982735767e72ce77c015cf0b394f9e12b7414ce"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020k.sqlite3",
+    "sha256": "11e3a0dccc40228ae6d9236cb79bacc1aad2be1e432243eb4d69cfbb33826419"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020l.sqlite3",
+    "sha256": "03af701fba181dd24a2831190e4bb0c2a3f59ce2a193d5a69237ef628cfe85dc"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020m.sqlite3",
+    "sha256": "3b4e06eef22491bd68f0628047443b59a82063cb90b148636075bea2e3a1e404"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020n.sqlite3",
+    "sha256": "fad79ab87c8c24ea872f7de3fb0324770a2f96d93454457c1765f18364b7e7ed"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020o.sqlite3",
+    "sha256": "e66b3a2c3e36e30f3ca541abc664b5de1ff232543e2b20c7e22d84d9c701ab6d"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020p.sqlite3",
+    "sha256": "6ea394bc2474b5e6becc7dbea7058b574f02214dda7c9423afbc32e98a4dd136"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020q.sqlite3",
+    "sha256": "8e9935e5f6e932d4206e0eca7402a11256bdc5aa535133a0df47c04dfe8839bd"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020r.sqlite3",
+    "sha256": "634ce528a564d2c17b02579391879e3bd7a21b3125adbb3651093628a82a2b30"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020s.sqlite3",
+    "sha256": "3801f13272fe7e460d5498110a48e083e330c684bb2d335057e9c3443cf3a85d"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020t.sqlite3",
+    "sha256": "8d44a8f558281fd860b1aec27b7db18be974bbdc4551dd23e211e18ec883db30"
+   },
+   {
+    "path": "workstreams/build/state/counted-draft/research-incident-quota-counted-frontier-20261020u.sqlite3",
+    "sha256": "6a9f68f923a87a3c61a9cd8ac1ff413a1fe692f1c33a0da366879c222ac6581d"
+   }
+  ]
+ },
+ "files": {
+  "CITATION.cff": "55784b2eb20d06ed734949b564b0dfab3831ad835c329543ea0e16e9d02ac568",
+  "DATA_CARD.md": "bda73933a7771c0994ffdf4439128d54930b17431ad16772691d84c74dfcf7a1",
+  "calls.jsonl": "bd39ab4da6d74a3c4980ce26ab983e4d3fbeb544c33f82d84dec7c7e97215085",
+  "consistency.jsonl": "8452eb5b380e58bc6d00cb9a31359082f3bf231695353596c400f4a9bb62c9de",
+  "croissant.json": "58d96fecbe411cac0e89b44ecb0d530a6f22b891748083b0205986ded45b50c9",
+  "dataset.jsonld": "326520a70c04ac22c87c25d971ac380c69bcd5c973f99794044263953b2d2863",
+  "decisions.csv": "30dd06f5948b1540607d03325475a1d87133053e07e7b27cf2b648d3a2aee29b",
+  "decisions.jsonl": "6b5332ac9d5b5a911ad603971e8657903f604593357e97d9b6ab4e88db023dbe",
+  "forecasts.jsonl": "9cbefe2f770d9b400801b7e6db4a950f6f8fb7c7ae79da9cb9b11769ed3aefa8",
+  "forecasts_all_attempts.jsonl": "6fd72fb0e425a883370316bc58f0c75cf989d9744337715bd47b1ca4ff5b26a3",
+  "forecasts_recovery.jsonl": "1d046e2da57c9a2b2ec9e91a98f0e94ec1951e756f782f2494818632b0972f86",
+  "pick_attempts.jsonl": "65150b33a64c67f009e29bccc3384566d179424ffa53e7c37b6dfb6308cc290a",
+  "prompts.json": "f00e77afd0189cfbe565e4d29b95b40fa3ee7da543771bb88b8b4049d4db1a1c",
+  "rules.json": "854122244b7df95c6844c6a8b0c25604a3780f27f161177159b680da33435a70",
+  "timing.json": "53ec914f49ffe06940dfbf925f0a8886788715e657060f666e756ec55fc9a734"
+ },
+ "published": false
+}

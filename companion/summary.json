@@ -1,0 +1,72 @@
+[
+  {
+    "manager": "anthropic",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 1,
+    "shared_solo_jaccard": 0.04
+  },
+  {
+    "manager": "deepseek",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 1,
+    "shared_solo_jaccard": 0.04
+  },
+  {
+    "manager": "gemini",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 1,
+    "shared_solo_jaccard": 0.04
+  },
+  {
+    "manager": "meta_direct",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 1,
+    "shared_solo_jaccard": 0.04
+  },
+  {
+    "manager": "mistral",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 2,
+    "shared_solo_jaccard": 0.083333
+  },
+  {
+    "manager": "moonshot",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 2,
+    "shared_solo_jaccard": 0.083333
+  },
+  {
+    "manager": "openai",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 3,
+    "shared_solo_jaccard": 0.130435
+  },
+  {
+    "manager": "qwen",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 2,
+    "shared_solo_jaccard": 0.083333
+  },
+  {
+    "manager": "xai",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 2,
+    "shared_solo_jaccard": 0.083333
+  },
+  {
+    "manager": "zai",
+    "shared_picks": 13,
+    "solo_picks": 13,
+    "shared_solo_common_players": 2,
+    "shared_solo_jaccard": 0.083333
+  }
+]

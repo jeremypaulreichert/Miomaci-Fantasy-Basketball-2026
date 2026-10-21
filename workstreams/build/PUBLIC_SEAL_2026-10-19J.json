@@ -1,0 +1,38 @@
+{
+ "schema": "basketball-public-seal/1",
+ "created_utc": "2026-10-19 23:43 UTC",
+ "seal_sha256": "eea6c1227fd46bbc6c1cda345b57a33abe49dac4062b02d2f101e4884dbf7d09",
+ "files": [
+  {
+   "path": "reviews/STOP_PATH_AUDIT_2026-10-19.md",
+   "sha256": "6cc0af500f103802f9e4c88bc74630cf7919ea56e8918c7b1bd5b2a956d8c898"
+  },
+  {
+   "path": "workstreams/build/DECISION_IDS_2026-10-19J.json",
+   "sha256": "74b82b19ec2809753e18b1bb65b2e2bf7f9e185897b47a3f1489269a4d3bcfd4"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19J/counted/package.json",
+   "sha256": "53549e300bd56649f61d5c13591ed928264b9121ad0542747a7601271ed15411"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_CONTINUATION_2026-10-19J/proposal.json",
+   "sha256": "78b9f816df24411573e1542fdfa2a1c98bd6021c5fe1fb68391778a47515b2c2"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/COUNTED_CONTINUATION_AMENDMENT_J_2026-10-19.md",
+   "sha256": "a1b3850403f67af2fd05cdd7636ab781c5aaea204db7f852d483d18cfcd28a83"
+  },
+  {
+   "path": "workstreams/build/PUBLIC_SEAL_2026-10-19I.json",
+   "sha256": "071b58ecd97416f124bfa805ad6581105093f70f79b97eb01bfce39ecbada9c1"
+  },
+  {
+   "path": "workstreams/build/incident_recovery.py",
+   "sha256": "968c2d19e5c647fef81e6f28c444ade9afa27bfd3a5e72229eb8b26578dc6632"
+  }
+ ],
+ "how_to_verify": "SHA-256 of the compact sorted JSON list of {path, sha256} entries above.",
+ "suggested_post": "Miomaci AI fantasy basketball experiment: forecasts, rules and setup sealed 2026-10-19 23:43 UTC, before the first counted tipoff. SHA-256: eea6c1227fd46bbc6c1cda345b57a33abe49dac4062b02d2f101e4884dbf7d09",
+ "published": false
+}

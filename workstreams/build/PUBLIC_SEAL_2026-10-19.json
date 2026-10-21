@@ -1,0 +1,74 @@
+{
+ "schema": "basketball-public-seal/1",
+ "created_utc": "2026-10-19 18:19 UTC",
+ "seal_sha256": "d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+ "files": [
+  {
+   "path": "reviews/CODEX_PREDRAFT_REVIEW_2026-10-19.md",
+   "sha256": "501ed9bd84ea997ff45f38cb7c0c6ecfba078689a9959ee74b523cccdebffa77"
+  },
+  {
+   "path": "reviews/CODEX_RECHECK_2026-10-19.md",
+   "sha256": "592165ffe556a6875e69e850bb39a85b8a62bbc19ba8f7d52f8f0ba47c13fd5f"
+  },
+  {
+   "path": "workstreams/build/COUNTED_INTEGRATION_2026-10-19/OWNER_ANSWERS_2026-10-19.md",
+   "sha256": "939e254b8a955c5afd2d8feb4238430a95f935d50e837531a0ccc6ee75f00698"
+  },
+  {
+   "path": "workstreams/build/COUNTED_INTEGRATION_2026-10-19/OWNER_DECISIONS.md",
+   "sha256": "233c496a4454bd2b0615715bbfac78587a8348a3ee84995fda1ba6d193e7e1b1"
+  },
+  {
+   "path": "workstreams/build/COUNTED_SEED_2026-10-19.json",
+   "sha256": "6dc9710342d676bbc3767f4c5c659d5c9611b658a9b0131cb32cdeb5ed4416eb"
+  },
+  {
+   "path": "workstreams/build/DECISION_IDS_2026-10-19.json",
+   "sha256": "3542ba0933317903665922da00f8edb5aee3581759aecd36746758f52fa4a06e"
+  },
+  {
+   "path": "workstreams/build/DRAFT_DAY_SNAPSHOT_2026-10-19B/MANIFEST.json",
+   "sha256": "138fdd0c6823d3555a1965e12ff3e539a8c455ef16ddd6f692ef79a5da36b157"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/FORECAST_ATTEMPT_RULE_2026-10-19.md",
+   "sha256": "4ee4c0b44e7f0113029a5ecef245f591fbc2f41db6ea11c059386ec9885e44e2"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SCORING_WINDOW_RULE_2026-10-19.md",
+   "sha256": "ec7db1180d26b45c7a12b9875d1daba72c6295baa074ae8e1527e59c148b3204"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19F/counted/package.json",
+   "sha256": "aff81df35276e02934539ea25c0bc0aac36d61d2ff90d8552b3a7a0287defefb"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_PACKAGES_2026-10-19F/proposal.json",
+   "sha256": "18a28268519def31f191c7352469812d8d3f2fc1004bcfd698a080151e0c3074"
+  },
+  {
+   "path": "workstreams/build/RUN_ENVIRONMENT_2026-10-19.json",
+   "sha256": "45cfd9cac023ab51e7f633f1630527289f640f0cecb0c9b4b4e9f58f8f55e7da"
+  },
+  {
+   "path": "workstreams/build/SEAL_CONSISTENCY_2026-10-19.json",
+   "sha256": "e213d1ab3911e69ce83b95e56580da4363f5f7ef4e34d4e2a718a8453be7db83"
+  },
+  {
+   "path": "workstreams/build/SEAL_FORECAST_A_2026-10-19.json",
+   "sha256": "79ba1a910f595903404ec23340a378a7ad54d05a9e0f92852ad3d03741991000"
+  },
+  {
+   "path": "workstreams/build/SEAL_FORECAST_B_2026-10-19.json",
+   "sha256": "698bb8dee2ad3ee9f21130d81ba048c4405d93b69da84b3f770564324a0d578e"
+  },
+  {
+   "path": "workstreams/build/analysis/prereg_metrics.py",
+   "sha256": "6db24db45ef0f6756846c12cf95c25842bf3eae9bf72be0844fb7b43ca3b3949"
+  }
+ ],
+ "how_to_verify": "SHA-256 of the compact sorted JSON list of {path, sha256} entries above.",
+ "suggested_post": "Miomaci AI fantasy basketball experiment: forecasts, rules and setup sealed 2026-10-19 18:19 UTC, before the first counted tipoff. SHA-256: d3d5fe210f6c8bbb5907c80a93e782ac16c5bcb36b6755653322537d7cd35dc1",
+ "published": false
+}

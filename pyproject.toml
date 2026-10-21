@@ -1,0 +1,9 @@
+[project]
+name = "miomaci-fantasy-basketball"
+version = "0.1.0"
+description = "Miomaci basketball experiment under offline development"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+credentials/
+*.sqlite*
+*.db
+audit/
+.publication-audit/
+PRIVATE_IDENTIFIERS*
+qa-tmp/
+.pytest_cache/
+.coverage*
+*.tmp

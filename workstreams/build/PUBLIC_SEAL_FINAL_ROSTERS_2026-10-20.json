@@ -1,0 +1,66 @@
+{
+ "schema": "basketball-public-seal/1",
+ "created_utc": "2026-10-20 21:00 UTC",
+ "seal_sha256": "dc012e7a2e4b2093e33e1404ecbc79179bea347ecf147bac3de884054ba946e6",
+ "files": [
+  {
+   "path": "workstreams/build/FINAL_ROSTERS_SHARED_2026-10-20.json",
+   "sha256": "0458ee583a09c21f9ad4c7dda441f338279fcf2f2a01fe2ffa74256f7cb71d4c"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_anthropic.json",
+   "sha256": "45d5deac8dff17fdd8098fa83df550bb89ead63c303172fc9ccb65b77a0eeacd"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_deepseek.json",
+   "sha256": "17a3db1b3fb138411a326b9320e1a0beb22f4063f1542c69786f245c95fd2416"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_gemini.json",
+   "sha256": "1206155171641d2d76206f3f651aaca9443be8dccc2bfa87c58c1c1506c105a1"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_meta_direct.json",
+   "sha256": "afa087ca163634000d65ea22412fd38ea92ae6bb1f313b0cf8b89b0bdc0984f8"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_mistral.json",
+   "sha256": "9cb0798083b5c528424eabcc27d25ed4946bc08b6d28ed4a7344a7b23ea06239"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_moonshot.json",
+   "sha256": "701133f0c35c0dd3479cc15682ee407d011e9889a889c9b27399716922fb7038"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_openai.json",
+   "sha256": "5c3d4fd1ffdffda7a97fc95e3f70d7ba8402cc0527a6c730548d49df974041ce"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_qwen.json",
+   "sha256": "0f76cebfdb76c756414c885a584299e5134966a0cd78d943bdedbb99e177e83e"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_xai.json",
+   "sha256": "aa867323eeb3edc2036ca46830bf655603ddbac6eabd53de4516335d1bae6fdd"
+  },
+  {
+   "path": "workstreams/build/FINAL_ROSTER_SOLO_zai.json",
+   "sha256": "d2d1afd4ac39383edad16716c0b05f4bda567d525c27b82cf5dd3cb9a04f47f0"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/FINAL_PICK_AND_SCORING_WINDOW_2026-10-20.md",
+   "sha256": "51f6c7ce14bdb52a4cd5b25d3fd09a241858c268c71d9e30e55a9fc2a09dc6b6"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SCORING_WINDOW_RULE_2026-10-19.md",
+   "sha256": "ec7db1180d26b45c7a12b9875d1daba72c6295baa074ae8e1527e59c148b3204"
+  },
+  {
+   "path": "workstreams/build/PUBLIC_SEAL_2026-10-20V.json",
+   "sha256": "ee192e508836e7ffa84c76ee836532ffa69575ad3128f1c2e504622a671dfca1"
+  }
+ ],
+ "how_to_verify": "SHA-256 of the compact sorted JSON list of {path, sha256} entries above.",
+ "suggested_post": "Miomaci AI fantasy basketball experiment: forecasts, rules and setup sealed 2026-10-20 21:00 UTC, before the first counted tipoff. SHA-256: dc012e7a2e4b2093e33e1404ecbc79179bea347ecf147bac3de884054ba946e6",
+ "published": false
+}

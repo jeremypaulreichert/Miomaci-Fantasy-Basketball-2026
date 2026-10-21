@@ -1,0 +1,26 @@
+{
+ "schema": "basketball-public-seal/1",
+ "created_utc": "2026-10-20 13:56 UTC",
+ "seal_sha256": "58a70c45a222e415bdfdcb6197c1253f8a371fef272c4c28c71d0d5b3ead09d8",
+ "files": [
+  {
+   "path": "workstreams/build/DECISION_IDS_SOLO_2026-10-20.json",
+   "sha256": "a2a7ebf41cdb01dddc5a436be1fb3e9090c139ce28542eb8b1bd3c422b6a9854"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_LAUNCH_2026-10-19/SOLO_ROSTERS_AMENDMENT_2026-10-20.md",
+   "sha256": "246811796a9f8d31fa495127b78777ae5031464895e15c31a2a1e5cf62af6cb5"
+  },
+  {
+   "path": "workstreams/build/FRONTIER_SOLO_2026-10-20/proposal.json",
+   "sha256": "69685c788fe055dd9978fff7df97a0b862d82338dd3f4873368381d05c1ea011"
+  },
+  {
+   "path": "workstreams/build/prepare_frontier_launch.py",
+   "sha256": "419ff88bcf998e4314380622bd0954aff0c5d9192fc6ec1ae7bfd52ba451e452"
+  }
+ ],
+ "how_to_verify": "SHA-256 of the compact sorted JSON list of {path, sha256} entries above.",
+ "suggested_post": "Miomaci AI fantasy basketball experiment: forecasts, rules and setup sealed 2026-10-20 13:56 UTC, before the first counted tipoff. SHA-256: 58a70c45a222e415bdfdcb6197c1253f8a371fef272c4c28c71d0d5b3ead09d8",
+ "published": false
+}

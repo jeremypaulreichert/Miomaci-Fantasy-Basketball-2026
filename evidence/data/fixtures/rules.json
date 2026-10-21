@@ -1,0 +1,24 @@
+{
+  "rules_id": "synthetic-candidate-a-v1",
+  "period_id": "synthetic-week-1",
+  "start_utc": "2025-01-06T00:00:00Z",
+  "end_utc": "2025-01-13T00:00:00Z",
+  "roster_size": 2,
+  "slots": [
+    {"name": "G1", "positions": ["G"]},
+    {"name": "F1", "positions": ["F"]}
+  ],
+  "weights": {
+    "points": "1",
+    "three_point_field_goals_made": "1",
+    "rebounds": "1",
+    "assists": "2",
+    "steals": "4",
+    "blocks": "4",
+    "turnovers": "-2",
+    "field_goals_made": "2",
+    "field_goals_attempted": "-1",
+    "free_throws_made": "1",
+    "free_throws_attempted": "-1"
+  }
+}
